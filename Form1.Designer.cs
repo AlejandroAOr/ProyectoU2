@@ -1,6 +1,6 @@
 ﻿namespace Proyecto2
 {
-    partial class Form1
+    partial class InicioSesion
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -28,57 +28,79 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.Txt_ContraseñaUser = new System.Windows.Forms.TextBox();
+            this.Txt_NombreUser = new System.Windows.Forms.TextBox();
+            this.Btn_iniciar = new System.Windows.Forms.Button();
+            this.lbl_Nuser = new System.Windows.Forms.Label();
+            this.lbl_Contra = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // button1
+            // Txt_ContraseñaUser
             // 
-            this.button1.Location = new System.Drawing.Point(351, 121);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(105, 23);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Ganar peso";
-            this.button1.UseVisualStyleBackColor = true;
+            this.Txt_ContraseñaUser.Location = new System.Drawing.Point(112, 224);
+            this.Txt_ContraseñaUser.Name = "Txt_ContraseñaUser";
+            this.Txt_ContraseñaUser.Size = new System.Drawing.Size(100, 22);
+            this.Txt_ContraseñaUser.TabIndex = 0;
             // 
-            // button2
+            // Txt_NombreUser
             // 
-            this.button2.Location = new System.Drawing.Point(351, 205);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(105, 23);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "Perder peso";
-            this.button2.UseVisualStyleBackColor = true;
+            this.Txt_NombreUser.Location = new System.Drawing.Point(104, 135);
+            this.Txt_NombreUser.Name = "Txt_NombreUser";
+            this.Txt_NombreUser.Size = new System.Drawing.Size(122, 22);
+            this.Txt_NombreUser.TabIndex = 1;
             // 
-            // button3
+            // Btn_iniciar
             // 
-            this.button3.Location = new System.Drawing.Point(351, 290);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(105, 23);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "Mantener peso";
-            this.button3.UseVisualStyleBackColor = true;
+            this.Btn_iniciar.Location = new System.Drawing.Point(123, 308);
+            this.Btn_iniciar.Name = "Btn_iniciar";
+            this.Btn_iniciar.Size = new System.Drawing.Size(75, 23);
+            this.Btn_iniciar.TabIndex = 2;
+            this.Btn_iniciar.Text = "Iniciar";
+            this.Btn_iniciar.UseVisualStyleBackColor = true;
+            this.Btn_iniciar.Click += new System.EventHandler(this.Btn_iniciar_Click);
             // 
-            // Form1
+            // lbl_Nuser
+            // 
+            this.lbl_Nuser.AutoSize = true;
+            this.lbl_Nuser.Location = new System.Drawing.Point(101, 116);
+            this.lbl_Nuser.Name = "lbl_Nuser";
+            this.lbl_Nuser.Size = new System.Drawing.Size(125, 16);
+            this.lbl_Nuser.TabIndex = 3;
+            this.lbl_Nuser.Text = "Nombre de Usuario";
+            // 
+            // lbl_Contra
+            // 
+            this.lbl_Contra.AutoSize = true;
+            this.lbl_Contra.Location = new System.Drawing.Point(122, 205);
+            this.lbl_Contra.Name = "lbl_Contra";
+            this.lbl_Contra.Size = new System.Drawing.Size(76, 16);
+            this.lbl_Contra.TabIndex = 4;
+            this.lbl_Contra.Text = "Contraseña";
+            // 
+            // InicioSesion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Name = "Form1";
-            this.Text = "ComeFit";
+            this.ClientSize = new System.Drawing.Size(356, 437);
+            this.Controls.Add(this.lbl_Contra);
+            this.Controls.Add(this.lbl_Nuser);
+            this.Controls.Add(this.Btn_iniciar);
+            this.Controls.Add(this.Txt_NombreUser);
+            this.Controls.Add(this.Txt_ContraseñaUser);
+            this.Name = "InicioSesion";
+            this.Text = "InicioSesion";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.TextBox Txt_ContraseñaUser;
+        private System.Windows.Forms.TextBox Txt_NombreUser;
+        private System.Windows.Forms.Button Btn_iniciar;
+        private System.Windows.Forms.Label lbl_Nuser;
+        private System.Windows.Forms.Label lbl_Contra;
     }
 }
 

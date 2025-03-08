@@ -10,36 +10,39 @@ using System.Windows.Forms;
 
 namespace Proyecto2
 {
-    public partial class InicioSesion : Form
+    public partial class Registro : Form
     {
-        public InicioSesion()
+        public Registro()
         {
             InitializeComponent();
         }
 
-        private void Btn_iniciar_Click(object sender, EventArgs e)
+        private void Btn_Registro_Click(object sender, EventArgs e)
         {
-            String Usuario, contraseña;
-            Usuario = Txt_NombreUser.Text;
-            contraseña = Txt_ContraseñaUser.Text;
+            String Usuario, email, contraseña;
+            Usuario = Txt_NomUs.Text;
+            email = Txt_EmailU.Text;
+            contraseña = Txt_ConUs.Text;
 
             // Los valores válidos para usuario y contraseña  
             string usuarioValido = "Alejandro";
+            string emailValido = "alex@gmail.com";
             string contrasenaValida = "1234"; // Cambia esto a la contraseña que desees  
 
             // Validación  
             bool usuarioCorrecto = Usuario == usuarioValido;
+            bool emailCorrecto = email == emailValido;
             bool contrasenaCorrecta = contraseña == contrasenaValida;
 
-            if (usuarioCorrecto && contrasenaCorrecta)
+            if (usuarioCorrecto && emailCorrecto && contrasenaCorrecta)
             {
                 this.Hide(); // Ocultar la ventana de inicio de sesión  
-                Form form = new Registro(); // Cambiar a la ventana principal  
+                Form form = new InicioSesion(); // Cambiar a la ventana principal  
                 form.ShowDialog();
             }
             else
             {
-                if (!usuarioCorrecto && !contrasenaCorrecta)
+                if (!usuarioCorrecto && !emailCorrecto && !contrasenaCorrecta)
                 {
                     MessageBox.Show("Usuario y contraseña incorrectos.");
                 }
@@ -47,15 +50,20 @@ namespace Proyecto2
                 {
                     MessageBox.Show("Usuario no válido.");
                 }
+                else if (!emailCorrecto)
+                {
+                    MessageBox.Show("Email incorrecto");
+                }
                 else if (!contrasenaCorrecta)
                 {
                     MessageBox.Show("Contraseña incorrecta.");
                 }
 
                 // Limpiar campos y enfocar en el usuario  
-                Txt_NombreUser.Clear();
-                Txt_ContraseñaUser.Clear();
-                Txt_NombreUser.Focus();
+                Txt_NomUs.Clear();
+                Txt_EmailU.Clear();
+                Txt_ConUs.Clear();
+                Txt_NomUs.Focus();
             }
         }
     }
