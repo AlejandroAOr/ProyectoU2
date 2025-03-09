@@ -36,9 +36,7 @@ namespace Proyecto2
 
             if (usuarioCorrecto && emailCorrecto && contrasenaCorrecta)
             {
-                this.Hide(); // Ocultar la ventana de inicio de sesión  
-                Form form = new InicioSesion(); // Cambiar a la ventana principal  
-                form.ShowDialog();
+                
             }
             else
             {

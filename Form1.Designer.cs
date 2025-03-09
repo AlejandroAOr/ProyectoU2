@@ -33,6 +33,7 @@
             this.Btn_iniciar = new System.Windows.Forms.Button();
             this.lbl_Nuser = new System.Windows.Forms.Label();
             this.lbl_Contra = new System.Windows.Forms.Label();
+            this.Btn_CrearCuenta = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Txt_ContraseñaUser
@@ -51,7 +52,7 @@
             // 
             // Btn_iniciar
             // 
-            this.Btn_iniciar.Location = new System.Drawing.Point(123, 308);
+            this.Btn_iniciar.Location = new System.Drawing.Point(67, 301);
             this.Btn_iniciar.Name = "Btn_iniciar";
             this.Btn_iniciar.Size = new System.Drawing.Size(75, 23);
             this.Btn_iniciar.TabIndex = 2;
@@ -77,11 +78,22 @@
             this.lbl_Contra.TabIndex = 4;
             this.lbl_Contra.Text = "Contraseña";
             // 
+            // Btn_CrearCuenta
+            // 
+            this.Btn_CrearCuenta.Location = new System.Drawing.Point(188, 301);
+            this.Btn_CrearCuenta.Name = "Btn_CrearCuenta";
+            this.Btn_CrearCuenta.Size = new System.Drawing.Size(75, 23);
+            this.Btn_CrearCuenta.TabIndex = 5;
+            this.Btn_CrearCuenta.Text = "Crear cuenta";
+            this.Btn_CrearCuenta.UseVisualStyleBackColor = true;
+            this.Btn_CrearCuenta.Click += new System.EventHandler(this.Btn_CrearCuenta_Click);
+            // 
             // InicioSesion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(356, 437);
+            this.Controls.Add(this.Btn_CrearCuenta);
             this.Controls.Add(this.lbl_Contra);
             this.Controls.Add(this.lbl_Nuser);
             this.Controls.Add(this.Btn_iniciar);
@@ -101,6 +113,7 @@
         private System.Windows.Forms.Button Btn_iniciar;
         private System.Windows.Forms.Label lbl_Nuser;
         private System.Windows.Forms.Label lbl_Contra;
+        private System.Windows.Forms.Button Btn_CrearCuenta;
     }
 }
 

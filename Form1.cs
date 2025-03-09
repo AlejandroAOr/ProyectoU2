@@ -33,9 +33,9 @@ namespace Proyecto2
 
             if (usuarioCorrecto && contrasenaCorrecta)
             {
-                this.Hide(); // Ocultar la ventana de inicio de sesión  
-                Form form = new Registro(); // Cambiar a la ventana principal  
-                form.ShowDialog();
+                //this.Hide(); // Ocultar la ventana de inicio de sesión  
+                //Form form = new Registro(); // Cambiar a la ventana principal  
+                //form.ShowDialog();
             }
             else
             {
@@ -54,9 +54,16 @@ namespace Proyecto2
 
                 // Limpiar campos y enfocar en el usuario  
                 Txt_NombreUser.Clear();
-                Txt_ContraseñaUser.Clear();
                 Txt_NombreUser.Focus();
+                Txt_ContraseñaUser.Clear();
             }
+        }
+
+        private void Btn_CrearCuenta_Click(object sender, EventArgs e)
+        {
+            this.Hide(); // Ocultar la ventana de inicio de sesión  
+            Form form = new Registro(); // Cambiar a la ventana principal  
+            form.ShowDialog();
         }
     }
 }
