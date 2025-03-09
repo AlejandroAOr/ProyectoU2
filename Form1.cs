@@ -24,7 +24,7 @@ namespace Proyecto2
             contraseña = Txt_ContraseñaUser.Text;
 
             // Los valores válidos para usuario y contraseña  
-            string usuarioValido = "Alejandro";
+            string usuarioValido = "luis";
             string contrasenaValida = "1234"; // Cambia esto a la contraseña que desees  
 
             // Validación  
@@ -33,9 +33,9 @@ namespace Proyecto2
 
             if (usuarioCorrecto && contrasenaCorrecta)
             {
-                //this.Hide(); // Ocultar la ventana de inicio de sesión  
-                //Form form = new Registro(); // Cambiar a la ventana principal  
-                //form.ShowDialog();
+                this.Hide(); // Ocultar la ventana de inicio de sesión  
+                Form form = new inicio(); // Cambiar a la ventana principal  
+                form.ShowDialog();
             }
             else
             {
@@ -64,6 +64,16 @@ namespace Proyecto2
             this.Hide(); // Ocultar la ventana de inicio de sesión  
             Form form = new Registro(); // Cambiar a la ventana principal  
             form.ShowDialog();
+        }
+
+        private void Txt_NombreUser_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void InicioSesion_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
