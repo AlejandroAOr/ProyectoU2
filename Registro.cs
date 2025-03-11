@@ -25,8 +25,8 @@ namespace Proyecto2
             contraseña = Txt_ConUs.Text;
 
             // Los valores válidos para usuario y contraseña  
-            string usuarioValido = "Alejandro";
-            string emailValido = "alex@gmail.com";
+            string usuarioValido = "luis";
+            string emailValido = "luis@gmail.com";
             string contrasenaValida = "1234"; // Cambia esto a la contraseña que desees  
 
             // Validación  
@@ -63,6 +63,11 @@ namespace Proyecto2
                 Txt_ConUs.Clear();
                 Txt_NomUs.Focus();
             }
+        }
+
+        private void Registro_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
