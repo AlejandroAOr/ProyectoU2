@@ -34,14 +34,13 @@
             this.Btn_iniciar = new System.Windows.Forms.Button();
             this.lbl_Nuser = new System.Windows.Forms.Label();
             this.lbl_Contra = new System.Windows.Forms.Label();
-            this.Btn_CrearCuenta = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Txt_ContraseñaUser
             // 
             this.Txt_ContraseñaUser.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.Txt_ContraseñaUser.Font = new System.Drawing.Font("Microsoft YaHei", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Txt_ContraseñaUser.Location = new System.Drawing.Point(191, 362);
+            this.Txt_ContraseñaUser.Location = new System.Drawing.Point(99, 267);
             this.Txt_ContraseñaUser.Multiline = true;
             this.Txt_ContraseñaUser.Name = "Txt_ContraseñaUser";
             this.Txt_ContraseñaUser.Size = new System.Drawing.Size(176, 39);
@@ -51,7 +50,7 @@
             // 
             this.Txt_NombreUser.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.Txt_NombreUser.Font = new System.Drawing.Font("Microsoft YaHei", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Txt_NombreUser.Location = new System.Drawing.Point(191, 230);
+            this.Txt_NombreUser.Location = new System.Drawing.Point(99, 149);
             this.Txt_NombreUser.Multiline = true;
             this.Txt_NombreUser.Name = "Txt_NombreUser";
             this.Txt_NombreUser.Size = new System.Drawing.Size(176, 39);
@@ -60,7 +59,7 @@
             // 
             // Btn_iniciar
             // 
-            this.Btn_iniciar.Location = new System.Drawing.Point(123, 308);
+            this.Btn_iniciar.Location = new System.Drawing.Point(117, 332);
             this.Btn_iniciar.Name = "Btn_iniciar";
             this.Btn_iniciar.Size = new System.Drawing.Size(129, 67);
             this.Btn_iniciar.TabIndex = 2;
@@ -73,7 +72,7 @@
             this.lbl_Nuser.AutoSize = true;
             this.lbl_Nuser.BackColor = System.Drawing.Color.LightGreen;
             this.lbl_Nuser.Font = new System.Drawing.Font("Microsoft YaHei", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_Nuser.Location = new System.Drawing.Point(162, 188);
+            this.lbl_Nuser.Location = new System.Drawing.Point(70, 107);
             this.lbl_Nuser.Name = "lbl_Nuser";
             this.lbl_Nuser.Size = new System.Drawing.Size(233, 30);
             this.lbl_Nuser.TabIndex = 3;
@@ -85,7 +84,7 @@
             this.lbl_Contra.BackColor = System.Drawing.Color.LightGreen;
             this.lbl_Contra.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.lbl_Contra.Font = new System.Drawing.Font("Microsoft YaHei", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_Contra.Location = new System.Drawing.Point(209, 318);
+            this.lbl_Contra.Location = new System.Drawing.Point(117, 223);
             this.lbl_Contra.Name = "lbl_Contra";
             this.lbl_Contra.Size = new System.Drawing.Size(141, 32);
             this.lbl_Contra.TabIndex = 4;
@@ -101,12 +100,10 @@
             this.Controls.Add(this.Btn_iniciar);
             this.Controls.Add(this.Txt_NombreUser);
             this.Controls.Add(this.Txt_ContraseñaUser);
-            this.Controls.Add(this.pb_logo);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "InicioSesion";
             this.Text = "InicioSesion";
             this.Load += new System.EventHandler(this.InicioSesion_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pb_logo)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
