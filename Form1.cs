@@ -25,7 +25,7 @@ namespace Proyecto2
 
             // Los valores válidos para usuario y contraseña  
             string usuarioValido = "Alejandro";
-            string contrasenaValida = "1234"; // Cambia esto a la contraseña que desees  
+            string contrasenaValida = "1234";   
 
             // Validación  
             bool usuarioCorrecto = Usuario == usuarioValido;
