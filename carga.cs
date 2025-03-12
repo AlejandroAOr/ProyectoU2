@@ -49,5 +49,10 @@ namespace Proyecto2
         {
 
         }
+
+        private void carga_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

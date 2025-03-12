@@ -36,8 +36,6 @@
             this.lbl_name = new System.Windows.Forms.Label();
             this.lbl_email = new System.Windows.Forms.Label();
             this.lbl_ContR = new System.Windows.Forms.Label();
-            this.pb_logo = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pb_logo)).BeginInit();
             this.SuspendLayout();
             // 
             // Txt_EmailU
@@ -105,21 +103,10 @@
             this.lbl_ContR.TabIndex = 6;
             this.lbl_ContR.Text = "Contraseña";
             // 
-            // pb_logo
-            // 
-            this.pb_logo.Image = ((System.Drawing.Image)(resources.GetObject("pb_logo.Image")));
-            this.pb_logo.Location = new System.Drawing.Point(103, 0);
-            this.pb_logo.Name = "pb_logo";
-            this.pb_logo.Size = new System.Drawing.Size(303, 206);
-            this.pb_logo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pb_logo.TabIndex = 7;
-            this.pb_logo.TabStop = false;
-            // 
             // Registro
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(518, 621);
             this.Controls.Add(this.lbl_ContR);
             this.Controls.Add(this.lbl_email);
@@ -128,12 +115,10 @@
             this.Controls.Add(this.Txt_NomUs);
             this.Controls.Add(this.Txt_ConUs);
             this.Controls.Add(this.Txt_EmailU);
-            this.Controls.Add(this.pb_logo);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Registro";
             this.Text = "Registro";
             this.Load += new System.EventHandler(this.Registro_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pb_logo)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -148,6 +133,5 @@
         private System.Windows.Forms.Label lbl_name;
         private System.Windows.Forms.Label lbl_email;
         private System.Windows.Forms.Label lbl_ContR;
-        private System.Windows.Forms.PictureBox pb_logo;
     }
 }
