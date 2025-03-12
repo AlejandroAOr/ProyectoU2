@@ -105,9 +105,9 @@
             this.lbl_iniSes1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_iniSes1.Location = new System.Drawing.Point(191, 149);
             this.lbl_iniSes1.Name = "lbl_iniSes1";
-            this.lbl_iniSes1.Size = new System.Drawing.Size(172, 25);
+            this.lbl_iniSes1.Size = new System.Drawing.Size(170, 25);
             this.lbl_iniSes1.TabIndex = 6;
-            this.lbl_iniSes1.Text = "Crea una cuenta";
+            this.lbl_iniSes1.Text = "cuenta existente";
             // 
             // lbl_iniSes2
             // 

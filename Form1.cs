@@ -83,7 +83,9 @@ namespace Proyecto2
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            this.Hide(); // Ocultar la ventana de inicio de sesión  
+            Form form = new Registro(); // Cambiar a la ventana principal  
+            form.ShowDialog();
         }
     }
 }

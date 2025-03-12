@@ -36,7 +36,12 @@ namespace Proyecto2
 
             if (usuarioCorrecto && emailCorrecto && contrasenaCorrecta)
             {
-                
+                MessageBox.Show("se creo la cuenta con exito", "⚠️", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+
+
+                this.Hide(); // Ocultar la ventana de inicio de sesión  
+                Form form = new InicioSesion(); // Cambiar a la ventana principal  
+                form.ShowDialog();
             }
             else
             {
