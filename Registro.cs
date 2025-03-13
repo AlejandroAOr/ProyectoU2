@@ -75,8 +75,18 @@ namespace Proyecto2
 
         }
 
-        private void pb_logo_Click(object sender, EventArgs e)
+        private void Txt_NomUs_TextChanged(object sender, EventArgs e)
         {
+
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+             InicioSesion inicioSesion = new InicioSesion();
+            inicioSesion.Show();
+
+            // Cerrar el formulario actual
+            this.Close();
 
         }
     }
