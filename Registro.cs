@@ -89,5 +89,23 @@ namespace Proyecto2
             this.Close();
 
         }
+
+        private void Txt_NomUs_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            // Permitir solo letras (mayúsculas y minúsculas) y teclas de control (como retroceso)
+            if (!char.IsLetter(e.KeyChar) && !char.IsControl(e.KeyChar))
+            {
+                e.Handled = true;
+            }
+        }
+
+        private void Txt_ConUs_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            // Permitir solo números y teclas de control (como retroceso)
+            if (!char.IsDigit(e.KeyChar) && !char.IsControl(e.KeyChar))
+            {
+                e.Handled = true;
+            }
+        }
     }
 }

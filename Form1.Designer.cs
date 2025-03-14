@@ -49,6 +49,8 @@
             this.Txt_ContraseñaUser.Name = "Txt_ContraseñaUser";
             this.Txt_ContraseñaUser.Size = new System.Drawing.Size(176, 39);
             this.Txt_ContraseñaUser.TabIndex = 0;
+            this.Txt_ContraseñaUser.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Txt_ContraseñaUser_KeyPress);
+            this.Txt_ContraseñaUser.MouseEnter += new System.EventHandler(this.Txt_ContraseñaUser_MouseEnter);
             // 
             // Txt_NombreUser
             // 
@@ -62,6 +64,8 @@
             this.Txt_NombreUser.TabIndex = 1;
             this.Txt_NombreUser.Tag = "";
             this.Txt_NombreUser.TextChanged += new System.EventHandler(this.Txt_NombreUser_TextChanged);
+            this.Txt_NombreUser.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Txt_NombreUser_KeyPress);
+            this.Txt_NombreUser.MouseEnter += new System.EventHandler(this.Txt_NombreUser_MouseEnter);
             // 
             // Btn_iniciar
             // 

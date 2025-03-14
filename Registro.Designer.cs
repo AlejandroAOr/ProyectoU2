@@ -53,6 +53,7 @@
             this.Txt_NomUs.Size = new System.Drawing.Size(438, 33);
             this.Txt_NomUs.TabIndex = 2;
             this.Txt_NomUs.TextChanged += new System.EventHandler(this.Txt_NomUs_TextChanged);
+            this.Txt_NomUs.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Txt_NomUs_KeyPress);
             // 
             // lbl_name
             // 
@@ -113,6 +114,7 @@
             this.Txt_ConUs.Name = "Txt_ConUs";
             this.Txt_ConUs.Size = new System.Drawing.Size(438, 33);
             this.Txt_ConUs.TabIndex = 12;
+            this.Txt_ConUs.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Txt_ConUs_KeyPress);
             // 
             // pictureBox1
             // 

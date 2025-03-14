@@ -7,6 +7,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
+// Usar un alias para la clase ToolTip
+using WinFormsToolTip = System.Windows.Forms.ToolTip;
+using VisualStylesToolTip = System.Windows.Forms.VisualStyles.VisualStyleElement.ToolTip;
+
 
 namespace Proyecto2
 {
@@ -15,6 +20,7 @@ namespace Proyecto2
         public InicioSesion()
         {
             InitializeComponent();
+
         }
 
         private void Btn_iniciar_Click(object sender, EventArgs e)
@@ -87,5 +93,40 @@ namespace Proyecto2
             Form form = new Registro(); // Cambiar a la ventana principal  
             form.ShowDialog();
         }
+
+        private void Txt_ContraseñaUser_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            // Permitir solo números y teclas de control (como retroceso)
+            if (!char.IsDigit(e.KeyChar) && !char.IsControl(e.KeyChar))
+            {
+                e.Handled = true;
+            }
+        }
+
+        private void Txt_NombreUser_KeyPress(object sender, KeyPressEventArgs e)
+        {
+
+            // Permitir solo letras (mayúsculas y minúsculas) y teclas de control (como retroceso)
+            if (!char.IsLetter(e.KeyChar) && !char.IsControl(e.KeyChar))
+            {
+                e.Handled = true;
+            }
+        }
+
+        private void Txt_NombreUser_MouseEnter(object sender, EventArgs e)
+        {
+            // Declarar y usar el ToolTip con el alias
+            WinFormsToolTip toolTip1 = new WinFormsToolTip();
+            toolTip1.SetToolTip(Txt_NombreUser, "NO ACEPTA NUMEROS");
+
+        }
+
+        private void Txt_ContraseñaUser_MouseEnter(object sender, EventArgs e)
+        {
+            // Declarar y usar el ToolTip con el alias
+            WinFormsToolTip toolTip1 = new WinFormsToolTip();
+            toolTip1.SetToolTip(Txt_ContraseñaUser, "NO ACEPTA LETRAS");
+        }
     }
+
 }
