@@ -63,6 +63,16 @@ namespace Proyecto2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _12225881 {
+            get {
+                object obj = ResourceManager.GetObject("12225881", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Captura_de_pantalla_2025_03_12_091159_removebg_preview {
             get {
                 object obj = ResourceManager.GetObject("Captura_de_pantalla_2025-03-12_091159-removebg-preview", resourceCulture);
@@ -83,6 +93,16 @@ namespace Proyecto2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icone_loupe_gris {
+            get {
+                object obj = ResourceManager.GetObject("icone-loupe-gris", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap IMG_6672 {
             get {
                 object obj = ResourceManager.GetObject("IMG_6672", resourceCulture);
@@ -96,6 +116,16 @@ namespace Proyecto2.Properties {
         internal static System.Drawing.Bitmap IMG_6673 {
             get {
                 object obj = ResourceManager.GetObject("IMG_6673", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pera_6 {
+            get {
+                object obj = ResourceManager.GetObject("pera-6", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

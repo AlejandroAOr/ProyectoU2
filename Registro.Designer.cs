@@ -126,8 +126,9 @@
             // 
             // Btn_Registro
             // 
-            this.Btn_Registro.BackColor = System.Drawing.Color.DodgerBlue;
+            this.Btn_Registro.BackColor = System.Drawing.Color.Black;
             this.Btn_Registro.Font = new System.Drawing.Font("Microsoft YaHei", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Btn_Registro.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.Btn_Registro.Location = new System.Drawing.Point(144, 483);
             this.Btn_Registro.Name = "Btn_Registro";
             this.Btn_Registro.Size = new System.Drawing.Size(233, 52);
