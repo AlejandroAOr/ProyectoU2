@@ -36,5 +36,36 @@ namespace Proyecto2
         {
 
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox15_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Btn_progreso_Click(object sender, EventArgs e)
+        {
+            this.Hide(); // Ocultar la ventana de inicio de sesión  
+            Form form = new General(); // Cambiar a la ventana principal  
+            form.ShowDialog();
+        }
+
+        private void Btn_PGrasa_Click(object sender, EventArgs e)
+        {
+            this.Hide(); // Ocultar la ventana de inicio de sesión  
+            Form form = new General(); // Cambiar a la ventana principal  
+            form.ShowDialog();
+        }
+
+        private void Btn_Gains_Click(object sender, EventArgs e)
+        {
+            this.Hide(); // Ocultar la ventana de inicio de sesión  
+            Form form = new General(); // Cambiar a la ventana principal  
+            form.ShowDialog();
+        }
     }
 }
