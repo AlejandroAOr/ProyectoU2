@@ -21,5 +21,21 @@ namespace Proyecto2
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_MouseEnter(object sender, EventArgs e)
+        {
+            ToolTip toolTip = new ToolTip();
+            toolTip.SetToolTip(button1, "Haz clic para obtener más información");
+        }
+
+        private void button2_MouseEnter(object sender, EventArgs e)
+        {
+
+        }
     }
 }
