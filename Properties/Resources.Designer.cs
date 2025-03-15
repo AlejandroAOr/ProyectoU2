@@ -73,6 +73,16 @@ namespace Proyecto2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Captura_de_pantalla_2025_03_09_220435 {
+            get {
+                object obj = ResourceManager.GetObject("Captura de pantalla 2025-03-09 220435", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Captura_de_pantalla_2025_03_12_091159_removebg_preview {
             get {
                 object obj = ResourceManager.GetObject("Captura_de_pantalla_2025-03-12_091159-removebg-preview", resourceCulture);

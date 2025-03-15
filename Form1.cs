@@ -25,14 +25,15 @@ namespace Proyecto2
 
         private void Btn_iniciar_Click(object sender, EventArgs e)
         {
-            String Usuario, contraseña;
+            String Usuario, contraseña,name;
             Usuario = Txt_NombreUser.Text;
             contraseña = Txt_ContraseñaUser.Text;
+            
 
             // Los valores válidos para usuario y contraseña  
             string usuarioValido = "hola";
             string contrasenaValida = "1234"; // Cambia esto a la contraseña que desees  
-
+            name = Txt_NombreUser.Text;
             // Validación  
             bool usuarioCorrecto = Usuario == usuarioValido;
             bool contrasenaCorrecta = contraseña == contrasenaValida;
