@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Sobre_Ti));
-            this.label1 = new System.Windows.Forms.Label();
+            this.lbl_descri = new System.Windows.Forms.Label();
             this.personalizarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.opcionesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.deshacerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -57,14 +57,14 @@
             this.btn_Continuar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // label1
+            // lbl_descri
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(27, 84);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(355, 16);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Esta informacion nos ayuda a calcular tus calorias objetivo";
+            this.lbl_descri.AutoSize = true;
+            this.lbl_descri.Location = new System.Drawing.Point(27, 84);
+            this.lbl_descri.Name = "lbl_descri";
+            this.lbl_descri.Size = new System.Drawing.Size(355, 16);
+            this.lbl_descri.TabIndex = 0;
+            this.lbl_descri.Text = "Esta informacion nos ayuda a calcular tus calorias objetivo";
             // 
             // personalizarToolStripMenuItem
             // 
@@ -210,26 +210,44 @@
             this.Genero.Size = new System.Drawing.Size(165, 24);
             this.Genero.TabIndex = 1;
             this.Genero.Text = "Sexo";
+            this.Genero.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Genero_KeyPress);
             // 
             // Edad
             // 
             this.Edad.FormattingEnabled = true;
             this.Edad.Items.AddRange(new object[] {
-            "18 Años "});
+            "15 a 18 Años",
+            "18 a 25 Años",
+            "25 a 35 Años",
+            "30 a 45 Años",
+            "45 a 55 Años",
+            "55 a 65 Años",
+            "+70 Años"});
             this.Edad.Location = new System.Drawing.Point(119, 231);
             this.Edad.Name = "Edad";
             this.Edad.Size = new System.Drawing.Size(165, 24);
             this.Edad.TabIndex = 2;
             this.Edad.Text = "Edad";
+            this.Edad.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Edad_KeyPress);
             // 
             // Altura
             // 
             this.Altura.FormattingEnabled = true;
+            this.Altura.Items.AddRange(new object[] {
+            "130 cm a 140cm",
+            "140cm a 150cm",
+            "150 cm a 160cm",
+            "160cm a 170cm",
+            "170cm a 180cm ",
+            "180cm a 190cm",
+            "190cm a 200cm"});
             this.Altura.Location = new System.Drawing.Point(119, 280);
             this.Altura.Name = "Altura";
             this.Altura.Size = new System.Drawing.Size(165, 24);
             this.Altura.TabIndex = 3;
             this.Altura.Text = "Altura";
+            this.Altura.SelectedIndexChanged += new System.EventHandler(this.Altura_SelectedIndexChanged);
+            this.Altura.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Altura_KeyPress);
             // 
             // Peso
             // 
@@ -240,12 +258,14 @@
             this.Peso.TabIndex = 4;
             this.Peso.Tag = "";
             this.Peso.Text = "Peso";
+            this.Peso.SelectedIndexChanged += new System.EventHandler(this.Peso_SelectedIndexChanged);
+            this.Peso.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Peso_KeyPress);
             // 
             // btn_Continuar
             // 
             this.btn_Continuar.Location = new System.Drawing.Point(156, 392);
             this.btn_Continuar.Name = "btn_Continuar";
-            this.btn_Continuar.Size = new System.Drawing.Size(75, 23);
+            this.btn_Continuar.Size = new System.Drawing.Size(91, 33);
             this.btn_Continuar.TabIndex = 5;
             this.btn_Continuar.Text = "Continuar";
             this.btn_Continuar.UseVisualStyleBackColor = true;
@@ -261,7 +281,7 @@
             this.Controls.Add(this.Altura);
             this.Controls.Add(this.Edad);
             this.Controls.Add(this.Genero);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.lbl_descri);
             this.Name = "Sobre_Ti";
             this.Text = "Sobre_Ti";
             this.ResumeLayout(false);
@@ -271,7 +291,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lbl_descri;
         private System.Windows.Forms.ToolStripMenuItem personalizarToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem opcionesToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem deshacerToolStripMenuItem;

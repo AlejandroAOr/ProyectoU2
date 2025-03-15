@@ -30,7 +30,7 @@ namespace Proyecto2
             contraseña = Txt_ContraseñaUser.Text;
 
             // Los valores válidos para usuario y contraseña  
-            string usuarioValido = "luis";
+            string usuarioValido = "hola";
             string contrasenaValida = "1234"; // Cambia esto a la contraseña que desees  
 
             // Validación  
