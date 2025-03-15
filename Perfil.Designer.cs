@@ -1,6 +1,6 @@
 ﻿namespace Proyecto2
 {
-    partial class Usuario
+    partial class Perfil
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Usuario));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Perfil));
             this.pictureBox_logo = new System.Windows.Forms.PictureBox();
             this.pictureBox_tablas = new System.Windows.Forms.PictureBox();
             this.pictureBox_use = new System.Windows.Forms.PictureBox();

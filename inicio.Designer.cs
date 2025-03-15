@@ -61,7 +61,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(105, 139);
+            this.label3.Location = new System.Drawing.Point(102, 161);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(311, 16);
             this.label3.TabIndex = 8;
@@ -98,7 +98,7 @@
             this.Btn_PGrasa.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.Btn_PGrasa.Image = ((System.Drawing.Image)(resources.GetObject("Btn_PGrasa.Image")));
             this.Btn_PGrasa.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.Btn_PGrasa.Location = new System.Drawing.Point(177, 277);
+            this.Btn_PGrasa.Location = new System.Drawing.Point(177, 239);
             this.Btn_PGrasa.Name = "Btn_PGrasa";
             this.Btn_PGrasa.Size = new System.Drawing.Size(140, 59);
             this.Btn_PGrasa.TabIndex = 4;

@@ -8,13 +8,19 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
 namespace Proyecto2
 {
-    public partial class Usuario : Form
+    public partial class Home : Form
     {
-        public Usuario()
+        public Home()
         {
             InitializeComponent();
+        }
+
+        private void Home_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

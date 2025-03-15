@@ -60,11 +60,23 @@
     <Compile Include="carga.Designer.cs">
       <DependentUpon>carga.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form1.cs">
+    <Compile Include="Contraseña.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Contraseña.Designer.cs">
+      <DependentUpon>Contraseña.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Home.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home.Designer.cs">
+      <DependentUpon>Home.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InicioSesion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InicioSesion.Designer.cs">
+      <DependentUpon>InicioSesion.cs</DependentUpon>
     </Compile>
     <Compile Include="inicio.cs">
       <SubType>Form</SubType>
@@ -84,11 +96,11 @@
     <Compile Include="Objetivo.Designer.cs">
       <DependentUpon>Objetivo.cs</DependentUpon>
     </Compile>
-    <Compile Include="Perder Grasa.cs">
+    <Compile Include="PerderGrasa.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Perder Grasa.Designer.cs">
-      <DependentUpon>Perder Grasa.cs</DependentUpon>
+    <Compile Include="PerderGrasa.Designer.cs">
+      <DependentUpon>PerderGrasa.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -104,11 +116,11 @@
     <Compile Include="Sobre_Ti.Designer.cs">
       <DependentUpon>Sobre_Ti.cs</DependentUpon>
     </Compile>
-    <Compile Include="Usuario.cs">
+    <Compile Include="Perfil.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Usuario.Designer.cs">
-      <DependentUpon>Usuario.cs</DependentUpon>
+    <Compile Include="Perfil.Designer.cs">
+      <DependentUpon>Perfil.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="Actividad.resx">
       <DependentUpon>Actividad.cs</DependentUpon>
@@ -116,8 +128,14 @@
     <EmbeddedResource Include="carga.resx">
       <DependentUpon>carga.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="Contraseña.resx">
+      <DependentUpon>Contraseña.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home.resx">
+      <DependentUpon>Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InicioSesion.resx">
+      <DependentUpon>InicioSesion.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="inicio.resx">
       <DependentUpon>inicio.cs</DependentUpon>
@@ -128,8 +146,8 @@
     <EmbeddedResource Include="Objetivo.resx">
       <DependentUpon>Objetivo.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Perder Grasa.resx">
-      <DependentUpon>Perder Grasa.cs</DependentUpon>
+    <EmbeddedResource Include="PerderGrasa.resx">
+      <DependentUpon>PerderGrasa.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -147,8 +165,8 @@
     <EmbeddedResource Include="Sobre_Ti.resx">
       <DependentUpon>Sobre_Ti.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Usuario.resx">
-      <DependentUpon>Usuario.cs</DependentUpon>
+    <EmbeddedResource Include="Perfil.resx">
+      <DependentUpon>Perfil.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

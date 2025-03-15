@@ -27,42 +27,35 @@ namespace Proyecto2
         {
             String Usuario, contraseña,name;
             Usuario = Txt_NombreUser.Text;
-            contraseña = Txt_ContraseñaUser.Text;
+            
             
 
             // Los valores válidos para usuario y contraseña  
             string usuarioValido = "hola";
-            string contrasenaValida = "1234"; // Cambia esto a la contraseña que desees  
+             
             name = Txt_NombreUser.Text;
             // Validación  
             bool usuarioCorrecto = Usuario == usuarioValido;
-            bool contrasenaCorrecta = contraseña == contrasenaValida;
+            
 
-            if (usuarioCorrecto && contrasenaCorrecta)
+            if (usuarioCorrecto )
             {
                 this.Hide(); // Ocultar la ventana de inicio de sesión  
-                Form form = new inicio(); // Cambiar a la ventana principal  
+                Form form = new Contraseña(); // Cambiar a la ventana principal  
                 form.ShowDialog();
             }
             else
             {
-                if (!usuarioCorrecto && !contrasenaCorrecta)
+                if (!usuarioCorrecto )
                 {
-                    MessageBox.Show("Usuario y contraseña incorrectos.");
+                    MessageBox.Show("Usuario incorrecto.");
                 }
-                else if (!usuarioCorrecto)
-                {
-                    MessageBox.Show("Usuario no válido.");
-                }
-                else if (!contrasenaCorrecta)
-                {
-                    MessageBox.Show("Contraseña incorrecta.");
-                }
+               
 
                 // Limpiar campos y enfocar en el usuario  
                 Txt_NombreUser.Clear();
                 Txt_NombreUser.Focus();
-                Txt_ContraseñaUser.Clear();
+                
             }
         }
 
@@ -90,9 +83,7 @@ namespace Proyecto2
 
         private void button1_Click(object sender, EventArgs e)
         {
-            this.Hide(); // Ocultar la ventana de inicio de sesión  
-            Form form = new Registro(); // Cambiar a la ventana principal  
-            form.ShowDialog();
+            
         }
 
         private void Txt_ContraseñaUser_KeyPress(object sender, KeyPressEventArgs e)
@@ -122,11 +113,63 @@ namespace Proyecto2
 
         }
 
-        private void Txt_ContraseñaUser_MouseEnter(object sender, EventArgs e)
+       
+
+        private void pictureBox1_Click(object sender, EventArgs e)
         {
-            // Declarar y usar el ToolTip con el alias
-            WinFormsToolTip toolTip1 = new WinFormsToolTip();
-            toolTip1.SetToolTip(Txt_ContraseñaUser, "NO ACEPTA LETRAS");
+            this.Hide(); // Ocultar la ventana de inicio de sesión  
+            Form form = new Registro(); // Cambiar a la ventana principal  
+            form.ShowDialog();
+        }
+
+        private void lbl_Contra_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Txt_ContraseñaUser_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lbl_privacy3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lbl_privacidad2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lbl_privacidad1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lbl_iniSes2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lbl_iniSes1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lbl_privacy4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pbi_apple_Click(object sender, EventArgs e)
+        {
+
         }
     }
 
