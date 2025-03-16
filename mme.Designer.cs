@@ -196,7 +196,7 @@
             // pictureBox14
             // 
             this.pictureBox14.Image = global::Proyecto2.Properties.Resources._3106921;
-            this.pictureBox14.Location = new System.Drawing.Point(386, 643);
+            this.pictureBox14.Location = new System.Drawing.Point(401, 652);
             this.pictureBox14.Name = "pictureBox14";
             this.pictureBox14.Size = new System.Drawing.Size(60, 32);
             this.pictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -206,7 +206,7 @@
             // pictureBox13
             // 
             this.pictureBox13.Image = global::Proyecto2.Properties.Resources.pngtree_paper_line_icon_png_image_9040756;
-            this.pictureBox13.Location = new System.Drawing.Point(287, 643);
+            this.pictureBox13.Location = new System.Drawing.Point(302, 652);
             this.pictureBox13.Name = "pictureBox13";
             this.pictureBox13.Size = new System.Drawing.Size(60, 32);
             this.pictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -216,7 +216,7 @@
             // pictureBox12
             // 
             this.pictureBox12.Image = global::Proyecto2.Properties.Resources._42446;
-            this.pictureBox12.Location = new System.Drawing.Point(201, 643);
+            this.pictureBox12.Location = new System.Drawing.Point(216, 652);
             this.pictureBox12.Name = "pictureBox12";
             this.pictureBox12.Size = new System.Drawing.Size(60, 32);
             this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -226,7 +226,7 @@
             // pictureBox11
             // 
             this.pictureBox11.Image = global::Proyecto2.Properties.Resources._156838;
-            this.pictureBox11.Location = new System.Drawing.Point(108, 643);
+            this.pictureBox11.Location = new System.Drawing.Point(123, 652);
             this.pictureBox11.Name = "pictureBox11";
             this.pictureBox11.Size = new System.Drawing.Size(60, 32);
             this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -236,12 +236,13 @@
             // pictureBox7
             // 
             this.pictureBox7.Image = global::Proyecto2.Properties.Resources.png_transparent_computer_icons_home_house_home_angle_building_rectangle_thumbnail_removebg_preview;
-            this.pictureBox7.Location = new System.Drawing.Point(12, 643);
+            this.pictureBox7.Location = new System.Drawing.Point(27, 652);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(60, 32);
             this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox7.TabIndex = 24;
             this.pictureBox7.TabStop = false;
+            this.pictureBox7.Click += new System.EventHandler(this.pictureBox7_Click_1);
             // 
             // pictureBox8
             // 
@@ -343,6 +344,7 @@
             this.pictureBox15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox15.TabIndex = 29;
             this.pictureBox15.TabStop = false;
+            this.pictureBox15.Click += new System.EventHandler(this.pictureBox15_Click);
             // 
             // pictureBox16
             // 
@@ -369,7 +371,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(526, 678);
+            this.ClientSize = new System.Drawing.Size(491, 686);
             this.Controls.Add(this.pictureBox17);
             this.Controls.Add(this.pictureBox16);
             this.Controls.Add(this.pictureBox15);

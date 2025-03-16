@@ -47,5 +47,16 @@ namespace Proyecto2
         {
 
         }
+
+        private void pictureBox15_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox7_Click_1(object sender, EventArgs e)
+        {
+            ToolTip toolTip = new ToolTip();
+            toolTip.SetToolTip(pictureBox7, "Inico");
+        }
     }
 }
