@@ -268,5 +268,11 @@
   <ItemGroup>
     <None Include="Resources\3106921.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\png-transparent-computer-icons-home-house-home-angle-building-rectangle-thumbnail-removebg-preview1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\png-transparent-computer-icons-home-house-home-angle-building-rectangle-thumbnail-removebg-preview2.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

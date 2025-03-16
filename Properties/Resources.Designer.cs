@@ -214,6 +214,28 @@ namespace Proyecto2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap png_transparent_computer_icons_home_house_home_angle_building_rectangle_thumbnail_removebg_preview1 {
+            get {
+                object obj = ResourceManager.GetObject("png-transparent-computer-icons-home-house-home-angle-building-rectangle-thumbnail" +
+                        "-removebg-preview1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap png_transparent_computer_icons_home_house_home_angle_building_rectangle_thumbnail_removebg_preview2 {
+            get {
+                object obj = ResourceManager.GetObject("png-transparent-computer-icons-home-house-home-angle-building-rectangle-thumbnail" +
+                        "-removebg-preview2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap pngtree_paper_line_icon_png_image_9040756 {
             get {
                 object obj = ResourceManager.GetObject("pngtree-paper-line-icon-png-image_9040756", resourceCulture);
