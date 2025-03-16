@@ -34,6 +34,7 @@
             this.PesoOb = new System.Windows.Forms.ComboBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.btn_objetivo = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
@@ -56,6 +57,7 @@
             this.PesoA.Size = new System.Drawing.Size(161, 24);
             this.PesoA.TabIndex = 1;
             this.PesoA.Text = "Peso Actual";
+            this.PesoA.SelectedIndexChanged += new System.EventHandler(this.PesoA_SelectedIndexChanged);
             // 
             // PesoOb
             // 
@@ -86,11 +88,22 @@
             this.pictureBox2.TabIndex = 4;
             this.pictureBox2.TabStop = false;
             // 
+            // btn_objetivo
+            // 
+            this.btn_objetivo.Location = new System.Drawing.Point(207, 434);
+            this.btn_objetivo.Name = "btn_objetivo";
+            this.btn_objetivo.Size = new System.Drawing.Size(75, 23);
+            this.btn_objetivo.TabIndex = 5;
+            this.btn_objetivo.Text = "Aplicar";
+            this.btn_objetivo.UseVisualStyleBackColor = true;
+            this.btn_objetivo.Click += new System.EventHandler(this.btn_objetivo_Click);
+            // 
             // Objetivo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(543, 675);
+            this.Controls.Add(this.btn_objetivo);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.PesoOb);
@@ -112,5 +125,6 @@
         private System.Windows.Forms.ComboBox PesoOb;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Button btn_objetivo;
     }
 }

@@ -29,8 +29,8 @@ namespace Proyecto2
 
         private void button1_MouseEnter(object sender, EventArgs e)
         {
-            ToolTip toolTip = new ToolTip();
-            toolTip.SetToolTip(button1, "Haz clic para obtener más información");
+            //ToolTip toolTip = new ToolTip();
+            //toolTip.SetToolTip(button1, "Haz clic para obtener más información");
         }
 
         private void button2_MouseEnter(object sender, EventArgs e)
@@ -39,6 +39,11 @@ namespace Proyecto2
         }
 
         private void pictureBox7_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
         {
 
         }

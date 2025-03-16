@@ -10,22 +10,17 @@ using System.Windows.Forms;
 
 namespace Proyecto2
 {
-    public partial class Objetivo : Form
+    public partial class Bienvenida : Form
     {
-        public Objetivo()
+        public Bienvenida()
         {
             InitializeComponent();
         }
 
-        private void PesoA_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btn_objetivo_Click(object sender, EventArgs e)
+        private void btn_empezar_Click(object sender, EventArgs e)
         {
             this.Hide(); // Ocultar la ventana de inicio de sesión  
-            Form form = new InicioSesion(); // Cambiar a la ventana principal  
+            Form form = new inicio(); // Cambiar a la ventana principal  
             form.Show();
         }
     }

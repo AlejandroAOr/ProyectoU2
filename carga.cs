@@ -39,7 +39,7 @@ namespace Proyecto2
                
 
                 this.Hide(); // Ocultar la ventana de inicio de sesión  
-                Form form = new InicioSesion(); // Cambiar a la ventana principal  
+                Form form = new Bienvenida(); // Cambiar a la ventana principal  
                 form.Show();
                 timer1.Stop(); // Detener el timer
             }
@@ -51,6 +51,11 @@ namespace Proyecto2
         }
 
         private void carga_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void progressBar1_Click(object sender, EventArgs e)
         {
 
         }
