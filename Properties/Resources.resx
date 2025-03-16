@@ -121,25 +121,55 @@
   <data name="pera-6" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\pera-6.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Captura_de_pantalla_2025-03-12_091159-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Captura_de_pantalla_2025-03-12_091159-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="IMG_6672" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\IMG_6672.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="IMG_6673" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\IMG_6673.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="156838" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\156838.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="12225881" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\12225881.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="pngtree-paper-line-icon-png-image_9040756" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pngtree-paper-line-icon-png-image_9040756.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="icone-loupe-gris" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icone-loupe-gris.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="beneficios-del-chorizo-3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\beneficios-del-chorizo-3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="614991" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\614991.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Captura_de_pantalla_2025-03-12_185727-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Captura_de_pantalla_2025-03-12_185727-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Captura de pantalla 2025-03-09 220435" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Captura de pantalla 2025-03-09 220435.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_6673" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_6673.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="61499" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\61499.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="r_bano1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\r_bano1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="png-transparent-computer-icons-home-house-home-angle-building-rectangle-thumbnail-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\png-transparent-computer-icons-home-house-home-angle-building-rectangle-thumbnail-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="12225881" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\12225881.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="42446" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\42446.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Captura_de_pantalla_2025-03-12_091159-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Captura_de_pantalla_2025-03-12_091159-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="queso-fresco-casero" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\queso-fresco-casero.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icone-loupe-gris" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icone-loupe-gris.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="3106921" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3106921.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

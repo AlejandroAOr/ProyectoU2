@@ -205,5 +205,35 @@
   <ItemGroup>
     <None Include="Resources\Captura de pantalla 2025-03-09 220435.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\61499.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\614991.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\r_bano1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\queso-fresco-casero.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\beneficios-del-chorizo-3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\png-transparent-computer-icons-home-house-home-angle-building-rectangle-thumbnail-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\156838.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\42446.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngtree-paper-line-icon-png-image_9040756.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3106921.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

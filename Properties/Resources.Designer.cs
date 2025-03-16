@@ -73,6 +73,66 @@ namespace Proyecto2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _156838 {
+            get {
+                object obj = ResourceManager.GetObject("156838", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _3106921 {
+            get {
+                object obj = ResourceManager.GetObject("3106921", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _42446 {
+            get {
+                object obj = ResourceManager.GetObject("42446", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _61499 {
+            get {
+                object obj = ResourceManager.GetObject("61499", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _614991 {
+            get {
+                object obj = ResourceManager.GetObject("614991", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap beneficios_del_chorizo_3 {
+            get {
+                object obj = ResourceManager.GetObject("beneficios-del-chorizo-3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Captura_de_pantalla_2025_03_09_220435 {
             get {
                 object obj = ResourceManager.GetObject("Captura de pantalla 2025-03-09 220435", resourceCulture);
@@ -136,6 +196,47 @@ namespace Proyecto2.Properties {
         internal static System.Drawing.Bitmap pera_6 {
             get {
                 object obj = ResourceManager.GetObject("pera-6", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap png_transparent_computer_icons_home_house_home_angle_building_rectangle_thumbnail_removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("png-transparent-computer-icons-home-house-home-angle-building-rectangle-thumbnail" +
+                        "-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pngtree_paper_line_icon_png_image_9040756 {
+            get {
+                object obj = ResourceManager.GetObject("pngtree-paper-line-icon-png-image_9040756", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap queso_fresco_casero {
+            get {
+                object obj = ResourceManager.GetObject("queso-fresco-casero", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap r_bano1 {
+            get {
+                object obj = ResourceManager.GetObject("r_bano1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
