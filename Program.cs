@@ -16,7 +16,7 @@ namespace Proyecto2
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new mme());
+            Application.Run(new carga());
         }
     }
 }

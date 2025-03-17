@@ -72,5 +72,24 @@ namespace Proyecto2
             Form form = new carne(); // Cambiar a la ventana principal  
             form.Show();
         }
+
+        private void pictureBox18_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox20_Click(object sender, EventArgs e)
+        {
+            this.Hide(); // Ocultar la ventana de inicio de sesión  
+            Form form = new Calendario(); // Cambiar a la ventana principal  
+            form.ShowDialog();
+        }
+
+        private void pictureBox16_Click(object sender, EventArgs e)
+        {
+            this.Hide(); // Ocultar la ventana de inicio de sesión  
+            Form form = new Calendario(); // Cambiar a la ventana principal  
+            form.ShowDialog();
+        }
     }
 }

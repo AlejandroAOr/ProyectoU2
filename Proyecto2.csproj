@@ -158,6 +158,9 @@
     <EmbeddedResource Include="Bienvenida.resx">
       <DependentUpon>Bienvenida.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Calendario.resx">
+      <DependentUpon>Calendario.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="carga.resx">
       <DependentUpon>carga.cs</DependentUpon>
     </EmbeddedResource>
