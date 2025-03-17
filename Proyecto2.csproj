@@ -84,12 +84,6 @@
     <Compile Include="Favoritos.Designer.cs">
       <DependentUpon>Favoritos.cs</DependentUpon>
     </Compile>
-    <Compile Include="Home.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Home.Designer.cs">
-      <DependentUpon>Home.cs</DependentUpon>
-    </Compile>
     <Compile Include="InicioSesion.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -167,8 +161,8 @@
     <EmbeddedResource Include="carne.resx">
       <DependentUpon>carne.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Home.resx">
-      <DependentUpon>Home.cs</DependentUpon>
+    <EmbeddedResource Include="Favoritos.resx">
+      <DependentUpon>Favoritos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="InicioSesion.resx">
       <DependentUpon>InicioSesion.cs</DependentUpon>

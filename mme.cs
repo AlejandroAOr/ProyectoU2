@@ -50,7 +50,9 @@ namespace Proyecto2
 
         private void pictureBox15_Click(object sender, EventArgs e)
         {
-
+            this.Hide(); // Ocultar la ventana de inicio de sesión  
+            Form form = new Favoritos(); // Cambiar a la ventana principal  
+            form.ShowDialog();
         }
 
         private void pictureBox7_Click_1(object sender, EventArgs e)

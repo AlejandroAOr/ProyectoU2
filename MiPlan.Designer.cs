@@ -113,7 +113,7 @@
             this.pictureBox2.TabIndex = 6;
             this.pictureBox2.TabStop = false;
             // 
-            // Perfil
+            // MiPlan
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -126,8 +126,8 @@
             this.Controls.Add(this.pictureBox_use);
             this.Controls.Add(this.pictureBox_tablas);
             this.Controls.Add(this.pictureBox_logo);
-            this.Name = "Perfil";
-            this.Text = "Mi Usuario";
+            this.Name = "MiPlan";
+            this.Text = "Mi Plan";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_logo)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_tablas)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_use)).EndInit();

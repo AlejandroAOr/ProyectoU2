@@ -35,13 +35,56 @@ namespace Proyecto2
 
             //Colocamos en las etiquetas
             lbl_fechaselect.Text = inicio.ToString();
-            lbl_fin.Text = final.ToString();
+            
         }
 
         private void pb_editar_Click(object sender, EventArgs e)
         {
             this.Hide(); // Ocultar la ventana de inicio de sesión  
             Form form = new MenuSemanal(); // Cambiar a la ventana principal  
+            form.ShowDialog();
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox20_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void pictureBox21_Click(object sender, EventArgs e)
+        {
+            this.Hide(); // Ocultar la ventana de inicio de sesión  
+            Form form = new MiPlan(); // Cambiar a la ventana principal  
+            form.ShowDialog();
+        }
+
+        private void mc_calendario_DateChanged(object sender, DateRangeEventArgs e)
+        {
+
+        }
+
+        private void pb_home_Click(object sender, EventArgs e)
+        {
+            this.Hide(); // Ocultar la ventana de inicio de sesión  
+            Form form = new mme(); // Cambiar a la ventana principal  
+            form.ShowDialog();
+        }
+
+        private void pb_recetas_Click(object sender, EventArgs e)
+        {
+            this.Hide(); // Ocultar la ventana de inicio de sesión  
+            Form form = new MenuSemanal(); // Cambiar a la ventana principal  
+            form.ShowDialog();
+        }
+
+        private void pb_perfil_Click(object sender, EventArgs e)
+        {
+            this.Hide(); // Ocultar la ventana de inicio de sesión  
+            Form form = new Perfil(); // Cambiar a la ventana principal  
             form.ShowDialog();
         }
     }
