@@ -39,7 +39,7 @@ namespace Proyecto2
                
 
                 this.Hide(); // Ocultar la ventana de inicio de sesión  
-                Form form = new Bienvenida(); // Cambiar a la ventana principal  
+                Form form = new InicioSesion(); // Cambiar a la ventana principal  
                 form.Show();
                 timer1.Stop(); // Detener el timer
             }

@@ -25,7 +25,7 @@ namespace Proyecto2
         private void btn_objetivo_Click(object sender, EventArgs e)
         {
             this.Hide(); // Ocultar la ventana de inicio de sesión  
-            Form form = new InicioSesion(); // Cambiar a la ventana principal  
+            Form form = new mme (); // Cambiar a la ventana principal  
             form.Show();
         }
     }

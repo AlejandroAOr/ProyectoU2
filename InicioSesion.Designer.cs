@@ -41,6 +41,8 @@
             this.lbl_privacy4 = new System.Windows.Forms.Label();
             this.pbi_apple = new System.Windows.Forms.PictureBox();
             this.pbi_google = new System.Windows.Forms.PictureBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pbi_apple)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbi_google)).BeginInit();
             this.SuspendLayout();
@@ -50,7 +52,7 @@
             this.Txt_NombreUser.BackColor = System.Drawing.Color.White;
             this.Txt_NombreUser.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.Txt_NombreUser.Font = new System.Drawing.Font("Microsoft YaHei", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Txt_NombreUser.Location = new System.Drawing.Point(42, 315);
+            this.Txt_NombreUser.Location = new System.Drawing.Point(42, 223);
             this.Txt_NombreUser.Multiline = true;
             this.Txt_NombreUser.Name = "Txt_NombreUser";
             this.Txt_NombreUser.Size = new System.Drawing.Size(482, 39);
@@ -88,7 +90,7 @@
             // 
             this.lbl_iniSes1.AutoSize = true;
             this.lbl_iniSes1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_iniSes1.Location = new System.Drawing.Point(191, 217);
+            this.lbl_iniSes1.Location = new System.Drawing.Point(178, 170);
             this.lbl_iniSes1.Name = "lbl_iniSes1";
             this.lbl_iniSes1.Size = new System.Drawing.Size(170, 25);
             this.lbl_iniSes1.TabIndex = 6;
@@ -99,11 +101,11 @@
             // 
             this.lbl_iniSes2.AutoSize = true;
             this.lbl_iniSes2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_iniSes2.Location = new System.Drawing.Point(146, 242);
+            this.lbl_iniSes2.Location = new System.Drawing.Point(37, 195);
             this.lbl_iniSes2.Name = "lbl_iniSes2";
-            this.lbl_iniSes2.Size = new System.Drawing.Size(257, 25);
+            this.lbl_iniSes2.Size = new System.Drawing.Size(265, 25);
             this.lbl_iniSes2.TabIndex = 7;
-            this.lbl_iniSes2.Text = "Ingresa tu correo electrónico";
+            this.lbl_iniSes2.Text = "Ingresa tu nombre de usuario";
             this.lbl_iniSes2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.lbl_iniSes2.Click += new System.EventHandler(this.lbl_iniSes2_Click);
             // 
@@ -186,12 +188,37 @@
             this.pbi_google.TabStop = false;
             this.pbi_google.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
+            // textBox1
+            // 
+            this.textBox1.BackColor = System.Drawing.Color.White;
+            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox1.Font = new System.Drawing.Font("Microsoft YaHei", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Location = new System.Drawing.Point(42, 297);
+            this.textBox1.Multiline = true;
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(482, 39);
+            this.textBox1.TabIndex = 15;
+            this.textBox1.Tag = "";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(37, 269);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(200, 25);
+            this.label2.TabIndex = 16;
+            this.label2.Text = "Ingresa tu contraseña";
+            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // InicioSesion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.ClientSize = new System.Drawing.Size(548, 787);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.lbl_privacy4);
             this.Controls.Add(this.lbl_privacy3);
             this.Controls.Add(this.lbl_privacidad2);
@@ -228,6 +255,8 @@
         private System.Windows.Forms.Label lbl_privacidad2;
         private System.Windows.Forms.Label lbl_privacy3;
         private System.Windows.Forms.Label lbl_privacy4;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Label label2;
     }
 }
 

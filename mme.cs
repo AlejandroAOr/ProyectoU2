@@ -58,5 +58,19 @@ namespace Proyecto2
             ToolTip toolTip = new ToolTip();
             toolTip.SetToolTip(pictureBox7, "Inico");
         }
+
+        private void pictureBox14_Click(object sender, EventArgs e)
+        {
+            this.Hide(); // Ocultar la ventana de inicio de sesión  
+            Form form = new MiPlan(); // Cambiar a la ventana principal  
+            form.ShowDialog();
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            this.Hide(); // Ocultar la ventana de inicio de sesión  
+            Form form = new carne(); // Cambiar a la ventana principal  
+            form.Show();
+        }
     }
 }

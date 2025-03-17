@@ -41,7 +41,7 @@ namespace Proyecto2
             if (usuarioCorrecto )
             {
                 this.Hide(); // Ocultar la ventana de inicio de sesión  
-                Form form = new Contraseña(); // Cambiar a la ventana principal  
+                Form form = new Bienvenida(); // Cambiar a la ventana principal  
                 form.ShowDialog();
             }
             else
@@ -169,7 +169,9 @@ namespace Proyecto2
 
         private void pbi_apple_Click(object sender, EventArgs e)
         {
-
+            this.Hide(); // Ocultar la ventana de inicio de sesión  
+            Form form = new Registro(); // Cambiar a la ventana principal  
+            form.ShowDialog();
         }
     }
 

@@ -72,11 +72,11 @@
     <Compile Include="carga.Designer.cs">
       <DependentUpon>carga.cs</DependentUpon>
     </Compile>
-    <Compile Include="Contraseña.cs">
+    <Compile Include="carne.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Contraseña.Designer.cs">
-      <DependentUpon>Contraseña.cs</DependentUpon>
+    <Compile Include="carne.Designer.cs">
+      <DependentUpon>carne.cs</DependentUpon>
     </Compile>
     <Compile Include="Favoritos.cs">
       <SubType>Form</SubType>
@@ -161,8 +161,8 @@
     <EmbeddedResource Include="carga.resx">
       <DependentUpon>carga.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Contraseña.resx">
-      <DependentUpon>Contraseña.cs</DependentUpon>
+    <EmbeddedResource Include="carne.resx">
+      <DependentUpon>carne.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Home.resx">
       <DependentUpon>Home.cs</DependentUpon>
