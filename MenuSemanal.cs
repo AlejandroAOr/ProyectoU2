@@ -16,5 +16,20 @@ namespace Proyecto2
         {
             InitializeComponent();
         }
+
+        private void btn_desayuno_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lbl_snack_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -173,6 +173,9 @@
     <EmbeddedResource Include="inicio.resx">
       <DependentUpon>inicio.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="MenuSemanal.resx">
+      <DependentUpon>MenuSemanal.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="mme.resx">
       <DependentUpon>mme.cs</DependentUpon>
     </EmbeddedResource>
@@ -273,6 +276,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\png-transparent-computer-icons-home-house-home-angle-building-rectangle-thumbnail-removebg-preview2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OIP.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
