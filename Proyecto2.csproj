@@ -280,5 +280,14 @@
   <ItemGroup>
     <None Include="Resources\OIP.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\212807127-pescado-cocido-con-limón-y-verduras-en-una-ilustración-de-vector-de-plato-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image-removebg-preview %285%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image-removebg-preview %286%29.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

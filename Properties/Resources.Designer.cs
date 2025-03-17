@@ -83,6 +83,17 @@ namespace Proyecto2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _212807127_pescado_cocido_con_limón_y_verduras_en_una_ilustración_de_vector_de_plato_removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("212807127-pescado-cocido-con-limón-y-verduras-en-una-ilustración-de-vector-de-pla" +
+                        "to-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _3106921 {
             get {
                 object obj = ResourceManager.GetObject("3106921", resourceCulture);
@@ -166,6 +177,26 @@ namespace Proyecto2.Properties {
         internal static System.Drawing.Bitmap icone_loupe_gris {
             get {
                 object obj = ResourceManager.GetObject("icone-loupe-gris", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap image_removebg_preview__5_ {
+            get {
+                object obj = ResourceManager.GetObject("image-removebg-preview (5)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap image_removebg_preview__6_ {
+            get {
+                object obj = ResourceManager.GetObject("image-removebg-preview (6)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
