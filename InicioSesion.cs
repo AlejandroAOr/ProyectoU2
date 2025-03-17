@@ -173,6 +173,13 @@ namespace Proyecto2
             Form form = new Registro(); // Cambiar a la ventana principal  
             form.ShowDialog();
         }
+
+        private void textBox1_MouseEnter(object sender, EventArgs e)
+        {
+            // Declarar y usar el ToolTip con el alias
+            WinFormsToolTip toolTip1 = new WinFormsToolTip();
+            toolTip1.SetToolTip(textBox1, "NO ACEPTA LETRAS");
+        }
     }
 
 }

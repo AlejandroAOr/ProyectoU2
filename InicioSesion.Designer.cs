@@ -199,6 +199,7 @@
             this.textBox1.Size = new System.Drawing.Size(482, 39);
             this.textBox1.TabIndex = 15;
             this.textBox1.Tag = "";
+            this.textBox1.MouseEnter += new System.EventHandler(this.textBox1_MouseEnter);
             // 
             // label2
             // 

@@ -21,10 +21,10 @@ namespace Proyecto2
         public carne()
         {
             InitializeComponent();
-            lbl_n1.Text = "Imagen 1: 0";
-            lbl_n2.Text = "Imagen 2: 0";
-            lbl_n3.Text = "Imagen 3: 0";
-            lbl_n4.Text = "Imagen 4: 0";
+            lbl_n1.Text = "rib eye :cantidad";
+            lbl_n2.Text = "tampiqueña :cantidad";
+            lbl_n3.Text = "Pechuga de pollo :cantidad";
+            lbl_n4.Text = "carne de puerco:cantidad";
             lbl_sumac.Text = "Suma Total: 0";
 
             // Asignar el mismo evento a los cuatro PictureBox
@@ -41,39 +41,43 @@ namespace Proyecto2
             if (pictureBox == pictureBox5)
             {
                 contador1++;
-                valor = 10; 
-                lbl_n1.Text = "Imagen 1: " + contador1;
+                valor = 280; 
+                lbl_n1.Text = "rib eye: " + contador1;
             }
             else if (pictureBox == pictureBox6)
             {
                 contador2++;
-                valor = 20; 
-                lbl_n2.Text = "Imagen 2: " + contador2;
+                valor = 240; 
+                lbl_n2.Text = "tampiqueña: " + contador2;
             }
             else if (pictureBox == pictureBox7)
             {
                 contador3++;
-                valor = 30; 
-                lbl_n3.Text = "Imagen 3: " + contador3;
+                valor = 180; 
+                lbl_n3.Text = "Pechuga de pollo: " + contador3;
             }
             else if (pictureBox == pictureBox8)
             {
                 contador4++;
-                valor = 40; 
-                lbl_n4.Text = "Imagen 4: " + contador4;
+                valor = 280; 
+                lbl_n4.Text = "carne de puerco: " + contador4;
             }
 
             
             sumaTotal += valor;
             lbl_sumac.Text = "Suma Total: " + sumaTotal;
+
+         
         }
     
 
 private void btn_aplicar_Click(object sender, EventArgs e)
         {
-            this.Hide();   
-            Form form = new mme();   
+            this.Hide();
+            MiPlan form = new MiPlan();
+            form.SetValorA(sumaTotal);  // Pasar el valor al método público
             form.Show();
+
         }
 
         private void carne_Load(object sender, EventArgs e)
@@ -99,6 +103,21 @@ private void btn_aplicar_Click(object sender, EventArgs e)
         private void pictureBox8_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lbl_n1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+           
         }
     }
 }

@@ -36,6 +36,7 @@
             this.pictureBox_diagrama = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.lbl_consu = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_logo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_tablas)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_use)).BeginInit();
@@ -113,12 +114,23 @@
             this.pictureBox2.TabIndex = 6;
             this.pictureBox2.TabStop = false;
             // 
+            // lbl_consu
+            // 
+            this.lbl_consu.AutoSize = true;
+            this.lbl_consu.Location = new System.Drawing.Point(12, 163);
+            this.lbl_consu.Name = "lbl_consu";
+            this.lbl_consu.Size = new System.Drawing.Size(14, 16);
+            this.lbl_consu.TabIndex = 7;
+            this.lbl_consu.Text = "0";
+            // 
             // MiPlan
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(618, 630);
+            this.Controls.Add(this.lbl_consu);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.pictureBox_diagrama);
@@ -128,6 +140,7 @@
             this.Controls.Add(this.pictureBox_logo);
             this.Name = "MiPlan";
             this.Text = "Mi Plan";
+            this.Load += new System.EventHandler(this.MiPlan_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_logo)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_tablas)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_use)).EndInit();
@@ -148,5 +161,6 @@
         private System.Windows.Forms.PictureBox pictureBox_diagrama;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Label lbl_consu;
     }
 }

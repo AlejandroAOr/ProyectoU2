@@ -77,7 +77,9 @@ namespace Proyecto2
 
         private void pictureBox18_Click(object sender, EventArgs e)
         {
-
+            this.Hide(); // Ocultar la ventana de inicio de sesión  
+            Form form = new MiPlan(); // Cambiar a la ventana principal  
+            form.Show();
         }
 
         private void pictureBox20_Click(object sender, EventArgs e)
