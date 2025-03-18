@@ -245,7 +245,7 @@
             this.dgv_favoritos.Name = "dgv_favoritos";
             this.dgv_favoritos.RowHeadersWidth = 51;
             this.dgv_favoritos.RowTemplate.Height = 24;
-            this.dgv_favoritos.Size = new System.Drawing.Size(485, 214);
+            this.dgv_favoritos.Size = new System.Drawing.Size(467, 214);
             this.dgv_favoritos.TabIndex = 55;
             // 
             // img
