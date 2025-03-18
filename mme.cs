@@ -95,5 +95,12 @@ namespace Proyecto2
             Form form = new Calendario(); // Cambiar a la ventana principal  
             form.ShowDialog();
         }
+
+        private void img_6_Click(object sender, EventArgs e)
+        {
+            this.Hide(); // Ocultar la ventana de inicio de sesión  
+            Form form = new Pollo(); // Cambiar a la ventana principal  
+            form.ShowDialog();
+        }
     }
 }

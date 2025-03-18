@@ -102,6 +102,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(543, 675);
             this.Controls.Add(this.btn_objetivo);
             this.Controls.Add(this.pictureBox2);
@@ -109,6 +110,7 @@
             this.Controls.Add(this.PesoOb);
             this.Controls.Add(this.PesoA);
             this.Controls.Add(this.lbl_title);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Objetivo";
             this.Text = "Objetivo";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

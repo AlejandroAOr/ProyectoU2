@@ -39,13 +39,13 @@
             this.cena = new System.Windows.Forms.ComboBox();
             this.lbl_snack = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.img1 = new System.Windows.Forms.PictureBox();
+            this.img2 = new System.Windows.Forms.PictureBox();
             this.btn_cena = new System.Windows.Forms.Button();
             this.btn_comida = new System.Windows.Forms.Button();
             this.btn_desayuno = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.img1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.img2)).BeginInit();
             this.SuspendLayout();
             // 
             // lbl_Fecha
@@ -100,6 +100,8 @@
             this.desayuno.Size = new System.Drawing.Size(207, 24);
             this.desayuno.TabIndex = 8;
             this.desayuno.Text = "Descripcion";
+            this.desayuno.SelectedIndexChanged += new System.EventHandler(this.desayuno_SelectedIndexChanged);
+            this.desayuno.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.desayuno_KeyPress);
             // 
             // comida
             // 
@@ -109,6 +111,7 @@
             this.comida.Size = new System.Drawing.Size(207, 24);
             this.comida.TabIndex = 9;
             this.comida.Text = "Descripcion";
+            this.comida.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.comida_KeyPress);
             // 
             // cena
             // 
@@ -118,6 +121,7 @@
             this.cena.Size = new System.Drawing.Size(207, 24);
             this.cena.TabIndex = 10;
             this.cena.Text = "Descripcion";
+            this.cena.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.cena_KeyPress);
             // 
             // lbl_snack
             // 
@@ -137,23 +141,23 @@
             this.label1.Size = new System.Drawing.Size(0, 16);
             this.label1.TabIndex = 13;
             // 
-            // pictureBox2
+            // img1
             // 
-            this.pictureBox2.Location = new System.Drawing.Point(126, 369);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(100, 50);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pictureBox2.TabIndex = 14;
-            this.pictureBox2.TabStop = false;
+            this.img1.Location = new System.Drawing.Point(126, 369);
+            this.img1.Name = "img1";
+            this.img1.Size = new System.Drawing.Size(100, 50);
+            this.img1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.img1.TabIndex = 14;
+            this.img1.TabStop = false;
             // 
-            // pictureBox1
+            // img2
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(126, 444);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(100, 50);
-            this.pictureBox1.TabIndex = 12;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            this.img2.Location = new System.Drawing.Point(126, 444);
+            this.img2.Name = "img2";
+            this.img2.Size = new System.Drawing.Size(100, 50);
+            this.img2.TabIndex = 12;
+            this.img2.TabStop = false;
+            this.img2.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // btn_cena
             // 
@@ -187,10 +191,11 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(800, 506);
-            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.img1);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.img2);
             this.Controls.Add(this.lbl_snack);
             this.Controls.Add(this.cena);
             this.Controls.Add(this.comida);
@@ -203,10 +208,12 @@
             this.Controls.Add(this.lbl_comida);
             this.Controls.Add(this.lbl_desayuno);
             this.Controls.Add(this.lbl_Fecha);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "MenuSemanal";
             this.Text = "MenuSemanal";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.Load += new System.EventHandler(this.MenuSemanal_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.img1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.img2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -226,8 +233,8 @@
         private System.Windows.Forms.ComboBox comida;
         private System.Windows.Forms.ComboBox cena;
         private System.Windows.Forms.Label lbl_snack;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox img2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox img1;
     }
 }

@@ -275,6 +275,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(407, 546);
             this.Controls.Add(this.btn_Continuar);
             this.Controls.Add(this.Peso);
@@ -282,6 +283,7 @@
             this.Controls.Add(this.Edad);
             this.Controls.Add(this.Genero);
             this.Controls.Add(this.lbl_descri);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Sobre_Ti";
             this.Text = "Sobre_Ti";
             this.ResumeLayout(false);

@@ -122,6 +122,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(586, 750);
             this.Controls.Add(this.pickA);
             this.Controls.Add(this.lbl_descripcion);
@@ -130,6 +131,7 @@
             this.Controls.Add(this.Btn_Acti);
             this.Controls.Add(this.Btn_Sede);
             this.Controls.Add(this.lbl_Actividad);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Actividad";
             this.Text = "Actividad";
             this.Load += new System.EventHandler(this.Actividad_Load);
