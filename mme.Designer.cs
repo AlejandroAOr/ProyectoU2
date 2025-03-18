@@ -389,6 +389,7 @@
             this.img_8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.img_8.TabIndex = 10;
             this.img_8.TabStop = false;
+            this.img_8.Click += new System.EventHandler(this.img_8_Click);
             // 
             // img_7
             // 
@@ -399,6 +400,7 @@
             this.img_7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.img_7.TabIndex = 9;
             this.img_7.TabStop = false;
+            this.img_7.Click += new System.EventHandler(this.img_7_Click);
             // 
             // platillo_pollo
             // 

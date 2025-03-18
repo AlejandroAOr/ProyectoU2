@@ -267,7 +267,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(600, 635);
+            this.ClientSize = new System.Drawing.Size(604, 635);
             this.Controls.Add(this.lbl_p4);
             this.Controls.Add(this.lbl_p3);
             this.Controls.Add(this.lbl_p2);

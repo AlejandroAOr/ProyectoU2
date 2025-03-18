@@ -102,5 +102,19 @@ namespace Proyecto2
             Form form = new Pollo(); // Cambiar a la ventana principal  
             form.ShowDialog();
         }
+
+        private void img_7_Click(object sender, EventArgs e)
+        {
+            this.Hide(); // Ocultar la ventana de inicio de sesión  
+            Form form = new verduras(); // Cambiar a la ventana principal  
+            form.ShowDialog();
+        }
+
+        private void img_8_Click(object sender, EventArgs e)
+        {
+            this.Hide(); // Ocultar la ventana de inicio de sesión  
+            Form form = new Carnes_rojas(); // Cambiar a la ventana principal  
+            form.ShowDialog();
+        }
     }
 }
