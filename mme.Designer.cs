@@ -405,7 +405,7 @@
             // platillo_pollo
             // 
             this.platillo_pollo.Image = global::Proyecto2.Properties.Resources._212807127_pescado_cocido_con_limón_y_verduras_en_una_ilustración_de_vector_de_plato_removebg_preview;
-            this.platillo_pollo.Location = new System.Drawing.Point(108, 339);
+            this.platillo_pollo.Location = new System.Drawing.Point(102, 339);
             this.platillo_pollo.Name = "platillo_pollo";
             this.platillo_pollo.Size = new System.Drawing.Size(137, 82);
             this.platillo_pollo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;

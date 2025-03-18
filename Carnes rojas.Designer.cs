@@ -166,6 +166,7 @@
             this.btn_aplicar.TabIndex = 40;
             this.btn_aplicar.Text = "APLICAR";
             this.btn_aplicar.UseVisualStyleBackColor = false;
+            this.btn_aplicar.Click += new System.EventHandler(this.btn_aplicar_Click);
             // 
             // pictureBox8
             // 
