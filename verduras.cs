@@ -26,5 +26,13 @@ namespace Proyecto2
         {
 
         }
+
+        private void btn_aplicar_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            MiPlan form = new MiPlan();
+            // Pasar el valor al método público
+            form.Show();
+        }
     }
 }

@@ -41,11 +41,11 @@
             this.lbl_precio1 = new System.Windows.Forms.Label();
             this.lbl_precio2 = new System.Windows.Forms.Label();
             this.lbl_precio3 = new System.Windows.Forms.Label();
-            this.pictureBox18 = new System.Windows.Forms.PictureBox();
-            this.pictureBox19 = new System.Windows.Forms.PictureBox();
-            this.pictureBox20 = new System.Windows.Forms.PictureBox();
-            this.pictureBox21 = new System.Windows.Forms.PictureBox();
-            this.pictureBox22 = new System.Windows.Forms.PictureBox();
+            this.perfil = new System.Windows.Forms.PictureBox();
+            this.agen = new System.Windows.Forms.PictureBox();
+            this.calen = new System.Windows.Forms.PictureBox();
+            this.busq = new System.Windows.Forms.PictureBox();
+            this.home = new System.Windows.Forms.PictureBox();
             this.pictureBox14 = new System.Windows.Forms.PictureBox();
             this.img_3 = new System.Windows.Forms.PictureBox();
             this.img_2 = new System.Windows.Forms.PictureBox();
@@ -63,12 +63,12 @@
             this.platillo_pollo = new System.Windows.Forms.PictureBox();
             this.img_5 = new System.Windows.Forms.PictureBox();
             this.img_4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).BeginInit();
+            this.lupa = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.perfil)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.agen)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.calen)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.busq)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.home)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.img_3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.img_2)).BeginInit();
@@ -86,7 +86,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.platillo_pollo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.img_5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.img_4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.lupa)).BeginInit();
             this.SuspendLayout();
             // 
             // txt_busqueda
@@ -205,57 +205,57 @@
             this.lbl_precio3.TabIndex = 23;
             this.lbl_precio3.Text = "$10.99";
             // 
-            // pictureBox18
+            // perfil
             // 
-            this.pictureBox18.Image = global::Proyecto2.Properties.Resources._3106921;
-            this.pictureBox18.Location = new System.Drawing.Point(401, 652);
-            this.pictureBox18.Name = "pictureBox18";
-            this.pictureBox18.Size = new System.Drawing.Size(60, 32);
-            this.pictureBox18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox18.TabIndex = 37;
-            this.pictureBox18.TabStop = false;
-            this.pictureBox18.Click += new System.EventHandler(this.pictureBox18_Click);
+            this.perfil.Image = global::Proyecto2.Properties.Resources._3106921;
+            this.perfil.Location = new System.Drawing.Point(401, 652);
+            this.perfil.Name = "perfil";
+            this.perfil.Size = new System.Drawing.Size(60, 32);
+            this.perfil.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.perfil.TabIndex = 37;
+            this.perfil.TabStop = false;
+            this.perfil.Click += new System.EventHandler(this.pictureBox18_Click);
             // 
-            // pictureBox19
+            // agen
             // 
-            this.pictureBox19.Image = global::Proyecto2.Properties.Resources.pngtree_paper_line_icon_png_image_9040756;
-            this.pictureBox19.Location = new System.Drawing.Point(302, 652);
-            this.pictureBox19.Name = "pictureBox19";
-            this.pictureBox19.Size = new System.Drawing.Size(60, 32);
-            this.pictureBox19.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox19.TabIndex = 36;
-            this.pictureBox19.TabStop = false;
+            this.agen.Image = global::Proyecto2.Properties.Resources.pngtree_paper_line_icon_png_image_9040756;
+            this.agen.Location = new System.Drawing.Point(302, 652);
+            this.agen.Name = "agen";
+            this.agen.Size = new System.Drawing.Size(60, 32);
+            this.agen.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.agen.TabIndex = 36;
+            this.agen.TabStop = false;
             // 
-            // pictureBox20
+            // calen
             // 
-            this.pictureBox20.Image = global::Proyecto2.Properties.Resources._42446;
-            this.pictureBox20.Location = new System.Drawing.Point(216, 652);
-            this.pictureBox20.Name = "pictureBox20";
-            this.pictureBox20.Size = new System.Drawing.Size(60, 32);
-            this.pictureBox20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox20.TabIndex = 35;
-            this.pictureBox20.TabStop = false;
-            this.pictureBox20.Click += new System.EventHandler(this.pictureBox20_Click);
+            this.calen.Image = global::Proyecto2.Properties.Resources._42446;
+            this.calen.Location = new System.Drawing.Point(216, 652);
+            this.calen.Name = "calen";
+            this.calen.Size = new System.Drawing.Size(60, 32);
+            this.calen.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.calen.TabIndex = 35;
+            this.calen.TabStop = false;
+            this.calen.Click += new System.EventHandler(this.pictureBox20_Click);
             // 
-            // pictureBox21
+            // busq
             // 
-            this.pictureBox21.Image = global::Proyecto2.Properties.Resources._156838;
-            this.pictureBox21.Location = new System.Drawing.Point(123, 652);
-            this.pictureBox21.Name = "pictureBox21";
-            this.pictureBox21.Size = new System.Drawing.Size(60, 32);
-            this.pictureBox21.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox21.TabIndex = 34;
-            this.pictureBox21.TabStop = false;
+            this.busq.Image = global::Proyecto2.Properties.Resources._156838;
+            this.busq.Location = new System.Drawing.Point(123, 652);
+            this.busq.Name = "busq";
+            this.busq.Size = new System.Drawing.Size(60, 32);
+            this.busq.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.busq.TabIndex = 34;
+            this.busq.TabStop = false;
             // 
-            // pictureBox22
+            // home
             // 
-            this.pictureBox22.Image = global::Proyecto2.Properties.Resources.png_transparent_computer_icons_home_house_home_angle_building_rectangle_thumbnail_removebg_preview;
-            this.pictureBox22.Location = new System.Drawing.Point(27, 652);
-            this.pictureBox22.Name = "pictureBox22";
-            this.pictureBox22.Size = new System.Drawing.Size(60, 32);
-            this.pictureBox22.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox22.TabIndex = 33;
-            this.pictureBox22.TabStop = false;
+            this.home.Image = global::Proyecto2.Properties.Resources.png_transparent_computer_icons_home_house_home_angle_building_rectangle_thumbnail_removebg_preview;
+            this.home.Location = new System.Drawing.Point(27, 652);
+            this.home.Name = "home";
+            this.home.Size = new System.Drawing.Size(60, 32);
+            this.home.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.home.TabIndex = 33;
+            this.home.TabStop = false;
             // 
             // pictureBox14
             // 
@@ -434,16 +434,16 @@
             this.img_4.TabIndex = 5;
             this.img_4.TabStop = false;
             // 
-            // pictureBox1
+            // lupa
             // 
-            this.pictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.pictureBox1.Image = global::Proyecto2.Properties.Resources.icone_loupe_gris;
-            this.pictureBox1.Location = new System.Drawing.Point(21, 15);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(55, 33);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 1;
-            this.pictureBox1.TabStop = false;
+            this.lupa.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.lupa.Image = global::Proyecto2.Properties.Resources.icone_loupe_gris;
+            this.lupa.Location = new System.Drawing.Point(21, 15);
+            this.lupa.Name = "lupa";
+            this.lupa.Size = new System.Drawing.Size(55, 33);
+            this.lupa.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.lupa.TabIndex = 1;
+            this.lupa.TabStop = false;
             // 
             // mme
             // 
@@ -451,11 +451,11 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightGreen;
             this.ClientSize = new System.Drawing.Size(491, 686);
-            this.Controls.Add(this.pictureBox18);
-            this.Controls.Add(this.pictureBox19);
-            this.Controls.Add(this.pictureBox20);
-            this.Controls.Add(this.pictureBox21);
-            this.Controls.Add(this.pictureBox22);
+            this.Controls.Add(this.perfil);
+            this.Controls.Add(this.agen);
+            this.Controls.Add(this.calen);
+            this.Controls.Add(this.busq);
+            this.Controls.Add(this.home);
             this.Controls.Add(this.pictureBox14);
             this.Controls.Add(this.img_3);
             this.Controls.Add(this.img_2);
@@ -484,16 +484,16 @@
             this.Controls.Add(this.img_5);
             this.Controls.Add(this.lbl_categorias);
             this.Controls.Add(this.img_4);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.lupa);
             this.Controls.Add(this.txt_busqueda);
             this.Name = "mme";
             this.Text = "mme";
             this.Load += new System.EventHandler(this.mme_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.perfil)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.agen)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.calen)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.busq)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.home)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.img_3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.img_2)).EndInit();
@@ -511,7 +511,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.platillo_pollo)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.img_5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.img_4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.lupa)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -520,7 +520,7 @@
         #endregion
 
         private System.Windows.Forms.TextBox txt_busqueda;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox lupa;
         private System.Windows.Forms.PictureBox img_4;
         private System.Windows.Forms.Label lbl_categorias;
         private System.Windows.Forms.PictureBox img_5;
@@ -549,10 +549,10 @@
         private System.Windows.Forms.PictureBox img_2;
         private System.Windows.Forms.PictureBox img_3;
         private System.Windows.Forms.PictureBox pictureBox14;
-        private System.Windows.Forms.PictureBox pictureBox18;
-        private System.Windows.Forms.PictureBox pictureBox19;
-        private System.Windows.Forms.PictureBox pictureBox20;
-        private System.Windows.Forms.PictureBox pictureBox21;
-        private System.Windows.Forms.PictureBox pictureBox22;
+        private System.Windows.Forms.PictureBox perfil;
+        private System.Windows.Forms.PictureBox agen;
+        private System.Windows.Forms.PictureBox calen;
+        private System.Windows.Forms.PictureBox busq;
+        private System.Windows.Forms.PictureBox home;
     }
 }

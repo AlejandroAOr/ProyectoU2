@@ -212,6 +212,7 @@
             this.btn_aplicar.TabIndex = 22;
             this.btn_aplicar.Text = "APLICAR";
             this.btn_aplicar.UseVisualStyleBackColor = false;
+            this.btn_aplicar.Click += new System.EventHandler(this.btn_aplicar_Click);
             // 
             // pictureBox3
             // 
@@ -261,6 +262,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::Proyecto2.Properties.Resources.Captura_de_pantalla_2025_03_10_000453;
             this.ClientSize = new System.Drawing.Size(631, 629);
             this.Controls.Add(this.lbl_p4);
             this.Controls.Add(this.lbl_p3);
@@ -280,6 +282,7 @@
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "verduras";
             this.Text = "verduras";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
