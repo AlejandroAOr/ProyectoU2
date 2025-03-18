@@ -25,37 +25,43 @@ namespace Proyecto2
 
         private void Btn_iniciar_Click(object sender, EventArgs e)
         {
-            String Usuario, contraseña,name;
+            String Usuario, contraseña;
             Usuario = Txt_NombreUser.Text;
-            
-            
+            contraseña = Txt_ContraseñaUser.Text;
 
             // Los valores válidos para usuario y contraseña  
-            string usuarioValido = "hola";
-             
-            name = Txt_NombreUser.Text;
+            string usuarioValido = "Hola";
+            string contrasenaValida = "1234"; // Cambia esto a la contraseña que desees  
+
             // Validación  
             bool usuarioCorrecto = Usuario == usuarioValido;
-            
+            bool contrasenaCorrecta = contraseña == contrasenaValida;
 
-            if (usuarioCorrecto )
+            if (usuarioCorrecto && contrasenaCorrecta)
             {
                 this.Hide(); // Ocultar la ventana de inicio de sesión  
-                Form form = new Bienvenida(); // Cambiar a la ventana principal  
+                Form form = new Registro(); // Cambiar a la ventana principal  
                 form.ShowDialog();
             }
             else
             {
-                if (!usuarioCorrecto )
+                if (!usuarioCorrecto && !contrasenaCorrecta)
                 {
-                    MessageBox.Show("Usuario incorrecto.");
+                    MessageBox.Show("Usuario y contraseña incorrectos.");
                 }
-               
+                else if (!usuarioCorrecto)
+                {
+                    MessageBox.Show("Usuario no válido.");
+                }
+                else if (!contrasenaCorrecta)
+                {
+                    MessageBox.Show("Contraseña incorrecta.");
+                }
 
                 // Limpiar campos y enfocar en el usuario  
                 Txt_NombreUser.Clear();
+                Txt_ContraseñaUser.Clear();
                 Txt_NombreUser.Focus();
-                
             }
         }
 
@@ -178,7 +184,7 @@ namespace Proyecto2
         {
             // Declarar y usar el ToolTip con el alias
             WinFormsToolTip toolTip1 = new WinFormsToolTip();
-            toolTip1.SetToolTip(textBox1, "NO ACEPTA LETRAS(4)");
+            toolTip1.SetToolTip(Txt_ContraseñaUser, "NO ACEPTA LETRAS(4)");
         }
     }
 

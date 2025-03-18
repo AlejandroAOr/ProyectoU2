@@ -41,7 +41,7 @@
             this.lbl_privacy4 = new System.Windows.Forms.Label();
             this.pbi_apple = new System.Windows.Forms.PictureBox();
             this.pbi_google = new System.Windows.Forms.PictureBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.Txt_ContraseñaUser = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pbi_apple)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbi_google)).BeginInit();
@@ -188,18 +188,18 @@
             this.pbi_google.TabStop = false;
             this.pbi_google.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
-            // textBox1
+            // Txt_ContraseñaUser
             // 
-            this.textBox1.BackColor = System.Drawing.Color.White;
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox1.Font = new System.Drawing.Font("Microsoft YaHei", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(42, 297);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(482, 39);
-            this.textBox1.TabIndex = 15;
-            this.textBox1.Tag = "";
-            this.textBox1.MouseEnter += new System.EventHandler(this.textBox1_MouseEnter);
+            this.Txt_ContraseñaUser.BackColor = System.Drawing.Color.White;
+            this.Txt_ContraseñaUser.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Txt_ContraseñaUser.Font = new System.Drawing.Font("Microsoft YaHei", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Txt_ContraseñaUser.Location = new System.Drawing.Point(42, 297);
+            this.Txt_ContraseñaUser.Multiline = true;
+            this.Txt_ContraseñaUser.Name = "Txt_ContraseñaUser";
+            this.Txt_ContraseñaUser.Size = new System.Drawing.Size(482, 39);
+            this.Txt_ContraseñaUser.TabIndex = 15;
+            this.Txt_ContraseñaUser.Tag = "";
+            this.Txt_ContraseñaUser.MouseEnter += new System.EventHandler(this.textBox1_MouseEnter);
             // 
             // label2
             // 
@@ -219,7 +219,7 @@
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.ClientSize = new System.Drawing.Size(548, 787);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.Txt_ContraseñaUser);
             this.Controls.Add(this.lbl_privacy4);
             this.Controls.Add(this.lbl_privacy3);
             this.Controls.Add(this.lbl_privacidad2);
@@ -256,7 +256,7 @@
         private System.Windows.Forms.Label lbl_privacidad2;
         private System.Windows.Forms.Label lbl_privacy3;
         private System.Windows.Forms.Label lbl_privacy4;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox Txt_ContraseñaUser;
         private System.Windows.Forms.Label label2;
     }
 }

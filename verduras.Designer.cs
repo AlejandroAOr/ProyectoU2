@@ -105,10 +105,10 @@
             // 
             this.lbl_sumac.AutoSize = true;
             this.lbl_sumac.BackColor = System.Drawing.Color.LightGreen;
-            this.lbl_sumac.Font = new System.Drawing.Font("Microsoft Tai Le", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_sumac.Font = new System.Drawing.Font("Microsoft Tai Le", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_sumac.Location = new System.Drawing.Point(260, 528);
             this.lbl_sumac.Name = "lbl_sumac";
-            this.lbl_sumac.Size = new System.Drawing.Size(25, 30);
+            this.lbl_sumac.Size = new System.Drawing.Size(20, 22);
             this.lbl_sumac.TabIndex = 31;
             this.lbl_sumac.Text = "0";
             // 
@@ -116,10 +116,10 @@
             // 
             this.lbl_n4.AutoSize = true;
             this.lbl_n4.BackColor = System.Drawing.Color.LightGreen;
-            this.lbl_n4.Font = new System.Drawing.Font("Microsoft Tai Le", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_n4.Location = new System.Drawing.Point(336, 479);
+            this.lbl_n4.Font = new System.Drawing.Font("Microsoft Tai Le", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_n4.Location = new System.Drawing.Point(338, 489);
             this.lbl_n4.Name = "lbl_n4";
-            this.lbl_n4.Size = new System.Drawing.Size(25, 30);
+            this.lbl_n4.Size = new System.Drawing.Size(14, 16);
             this.lbl_n4.TabIndex = 30;
             this.lbl_n4.Text = "0";
             // 
@@ -127,10 +127,10 @@
             // 
             this.lbl_n3.AutoSize = true;
             this.lbl_n3.BackColor = System.Drawing.Color.LightGreen;
-            this.lbl_n3.Font = new System.Drawing.Font("Microsoft Tai Le", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_n3.Location = new System.Drawing.Point(6, 479);
+            this.lbl_n3.Font = new System.Drawing.Font("Microsoft Tai Le", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_n3.Location = new System.Drawing.Point(22, 489);
             this.lbl_n3.Name = "lbl_n3";
-            this.lbl_n3.Size = new System.Drawing.Size(25, 30);
+            this.lbl_n3.Size = new System.Drawing.Size(14, 16);
             this.lbl_n3.TabIndex = 29;
             this.lbl_n3.Text = "0";
             // 
@@ -138,10 +138,10 @@
             // 
             this.lbl_n2.AutoSize = true;
             this.lbl_n2.BackColor = System.Drawing.Color.LightGreen;
-            this.lbl_n2.Font = new System.Drawing.Font("Microsoft Tai Le", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_n2.Location = new System.Drawing.Point(336, 224);
+            this.lbl_n2.Font = new System.Drawing.Font("Microsoft Tai Le", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_n2.Location = new System.Drawing.Point(338, 238);
             this.lbl_n2.Name = "lbl_n2";
-            this.lbl_n2.Size = new System.Drawing.Size(25, 30);
+            this.lbl_n2.Size = new System.Drawing.Size(14, 16);
             this.lbl_n2.TabIndex = 28;
             this.lbl_n2.Text = "0";
             // 
@@ -149,10 +149,10 @@
             // 
             this.lbl_n1.AutoSize = true;
             this.lbl_n1.BackColor = System.Drawing.Color.LightGreen;
-            this.lbl_n1.Font = new System.Drawing.Font("Microsoft Tai Le", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_n1.Location = new System.Drawing.Point(20, 224);
+            this.lbl_n1.Font = new System.Drawing.Font("Microsoft Tai Le", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_n1.Location = new System.Drawing.Point(22, 238);
             this.lbl_n1.Name = "lbl_n1";
-            this.lbl_n1.Size = new System.Drawing.Size(25, 30);
+            this.lbl_n1.Size = new System.Drawing.Size(14, 16);
             this.lbl_n1.TabIndex = 27;
             this.lbl_n1.Text = "0";
             // 
@@ -160,10 +160,10 @@
             // 
             this.pictureBox8.BackColor = System.Drawing.Color.LightGreen;
             this.pictureBox8.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox8.Image")));
-            this.pictureBox8.Location = new System.Drawing.Point(397, 350);
+            this.pictureBox8.Location = new System.Drawing.Point(397, 329);
             this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(148, 87);
-            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox8.Size = new System.Drawing.Size(148, 125);
+            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox8.TabIndex = 26;
             this.pictureBox8.TabStop = false;
             // 
@@ -174,7 +174,7 @@
             this.pictureBox7.Location = new System.Drawing.Point(81, 329);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(148, 125);
-            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.pictureBox7.TabIndex = 25;
             this.pictureBox7.TabStop = false;
             this.pictureBox7.Click += new System.EventHandler(this.pictureBox7_Click);
@@ -189,6 +189,7 @@
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox6.TabIndex = 24;
             this.pictureBox6.TabStop = false;
+            this.pictureBox6.Click += new System.EventHandler(this.pictureBox6_Click);
             // 
             // pictureBox5
             // 
