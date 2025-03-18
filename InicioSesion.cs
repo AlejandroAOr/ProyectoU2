@@ -109,7 +109,7 @@ namespace Proyecto2
         {
             // Declarar y usar el ToolTip con el alias
             WinFormsToolTip toolTip1 = new WinFormsToolTip();
-            toolTip1.SetToolTip(Txt_NombreUser, "NO ACEPTA NUMEROS");
+            toolTip1.SetToolTip(Txt_NombreUser, "NO ACEPTA NUMEROS (4)");
 
         }
 
@@ -178,7 +178,7 @@ namespace Proyecto2
         {
             // Declarar y usar el ToolTip con el alias
             WinFormsToolTip toolTip1 = new WinFormsToolTip();
-            toolTip1.SetToolTip(textBox1, "NO ACEPTA LETRAS");
+            toolTip1.SetToolTip(textBox1, "NO ACEPTA LETRAS(4)");
         }
     }
 

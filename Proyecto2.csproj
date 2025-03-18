@@ -314,6 +314,7 @@
     <None Include="Resources\image-removebg-preview %286%29.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\Captura de pantalla 2025-03-10 000453.png" />
     <Content Include="Resources\fondo.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

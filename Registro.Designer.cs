@@ -54,6 +54,7 @@
             this.Txt_NomUs.TabIndex = 2;
             this.Txt_NomUs.TextChanged += new System.EventHandler(this.Txt_NomUs_TextChanged);
             this.Txt_NomUs.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Txt_NomUs_KeyPress);
+            this.Txt_NomUs.MouseEnter += new System.EventHandler(this.Txt_NomUs_MouseEnter);
             // 
             // lbl_name
             // 
@@ -94,6 +95,7 @@
             this.Txt_EmailU.Name = "Txt_EmailU";
             this.Txt_EmailU.Size = new System.Drawing.Size(438, 33);
             this.Txt_EmailU.TabIndex = 10;
+            this.Txt_EmailU.TextChanged += new System.EventHandler(this.Txt_EmailU_TextChanged);
             // 
             // label3
             // 
@@ -115,6 +117,7 @@
             this.Txt_ConUs.Size = new System.Drawing.Size(438, 33);
             this.Txt_ConUs.TabIndex = 12;
             this.Txt_ConUs.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Txt_ConUs_KeyPress);
+            this.Txt_ConUs.MouseEnter += new System.EventHandler(this.Txt_ConUs_MouseEnter);
             // 
             // pictureBox1
             // 

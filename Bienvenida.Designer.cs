@@ -36,11 +36,11 @@
             // 
             this.btn_empezar.BackColor = System.Drawing.Color.LawnGreen;
             this.btn_empezar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_empezar.Font = new System.Drawing.Font("Scheherazade", 25.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_empezar.Font = new System.Drawing.Font("Microsoft Sans Serif", 25.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_empezar.ForeColor = System.Drawing.Color.DarkOliveGreen;
-            this.btn_empezar.Location = new System.Drawing.Point(566, 454);
+            this.btn_empezar.Location = new System.Drawing.Point(538, 454);
             this.btn_empezar.Name = "btn_empezar";
-            this.btn_empezar.Size = new System.Drawing.Size(205, 81);
+            this.btn_empezar.Size = new System.Drawing.Size(233, 81);
             this.btn_empezar.TabIndex = 0;
             this.btn_empezar.Text = "Empezar";
             this.btn_empezar.UseVisualStyleBackColor = false;
@@ -55,6 +55,7 @@
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(800, 646);
             this.Controls.Add(this.btn_empezar);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Bienvenida";
             this.Text = "Bienvenida";
             this.ResumeLayout(false);

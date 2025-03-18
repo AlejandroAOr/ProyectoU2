@@ -7,6 +7,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
+// Usar un alias para la clase ToolTip
+using WinFormsToolTip = System.Windows.Forms.ToolTip;
+using VisualStylesToolTip = System.Windows.Forms.VisualStyles.VisualStyleElement.ToolTip;
 
 namespace Proyecto2
 {
@@ -19,55 +23,8 @@ namespace Proyecto2
 
         private void Btn_Registro_Click(object sender, EventArgs e)
         {
-            String Usuario, email, contraseña;
-            Usuario = Txt_NomUs.Text;
-            email = Txt_EmailU.Text;
-            contraseña = Txt_ConUs.Text;
-
-            // Los valores válidos para usuario y contraseña  
-            string usuarioValido = "luis";
-            string emailValido = "luis@gmail.com";
-            string contrasenaValida = "1234"; // Cambia esto a la contraseña que desees  
-
-            // Validación  
-            bool usuarioCorrecto = Usuario == usuarioValido;
-            bool emailCorrecto = email == emailValido;
-            bool contrasenaCorrecta = contraseña == contrasenaValida;
-
-            if (usuarioCorrecto && emailCorrecto && contrasenaCorrecta)
-            {
-                MessageBox.Show("se creo la cuenta con exito", "⚠️", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-
-
-                this.Hide(); // Ocultar la ventana de inicio de sesión  
-                Form form = new InicioSesion(); // Cambiar a la ventana principal  
-                form.ShowDialog();
-            }
-            else
-            {
-                if (!usuarioCorrecto && !emailCorrecto && !contrasenaCorrecta)
-                {
-                    MessageBox.Show("Usuario y contraseña incorrectos.");
-                }
-                else if (!usuarioCorrecto)
-                {
-                    MessageBox.Show("Usuario no válido.");
-                }
-                else if (!emailCorrecto)
-                {
-                    MessageBox.Show("Email incorrecto");
-                }
-                else if (!contrasenaCorrecta)
-                {
-                    MessageBox.Show("Contraseña incorrecta.");
-                }
-
-                // Limpiar campos y enfocar en el usuario  
-                Txt_NomUs.Clear();
-                Txt_EmailU.Clear();
-                Txt_ConUs.Clear();
-                Txt_NomUs.Focus();
-            }
+            
+            
         }
 
         private void Registro_Load(object sender, EventArgs e)
@@ -82,11 +39,9 @@ namespace Proyecto2
 
         private void label5_Click(object sender, EventArgs e)
         {
-             InicioSesion inicioSesion = new InicioSesion();
-            inicioSesion.Show();
-
-            // Cerrar el formulario actual
-            this.Close();
+            this.Hide(); // Ocultar la ventana de inicio de sesión  
+            Form form = new InicioSesion(); // Cambiar a la ventana principal  
+            form.Show();
 
         }
 
@@ -106,6 +61,24 @@ namespace Proyecto2
             {
                 e.Handled = true;
             }
+        }
+
+        private void Txt_EmailU_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Txt_NomUs_MouseEnter(object sender, EventArgs e)
+        {
+            // Declarar y usar el ToolTip con el alias
+            WinFormsToolTip toolTip1 = new WinFormsToolTip();
+            toolTip1.SetToolTip(Txt_NomUs, "NO ACEPTA NUMEROS(4)");
+        }
+
+        private void Txt_ConUs_MouseEnter(object sender, EventArgs e)
+        {
+            WinFormsToolTip toolTip1 = new WinFormsToolTip();
+            toolTip1.SetToolTip(Txt_ConUs, "NO ACEPTA LETRAS(4)");
         }
     }
 }

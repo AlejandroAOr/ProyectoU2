@@ -64,7 +64,7 @@
             // 
             // mc_calendario
             // 
-            this.mc_calendario.BackColor = System.Drawing.Color.White;
+            this.mc_calendario.BackColor = System.Drawing.Color.Silver;
             this.mc_calendario.Font = new System.Drawing.Font("Tw Cen MT", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.mc_calendario.ForeColor = System.Drawing.SystemColors.InfoText;
             this.mc_calendario.Location = new System.Drawing.Point(85, 165);
@@ -254,7 +254,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.White;
+            this.BackColor = System.Drawing.Color.LightGreen;
             this.ClientSize = new System.Drawing.Size(467, 699);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.pb_perfil);
@@ -274,6 +274,7 @@
             this.Controls.Add(this.pb_editar);
             this.Controls.Add(this.lbl_fecha);
             this.Controls.Add(this.mc_calendario);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Calendario";
             this.Text = "Calendario";
             this.Load += new System.EventHandler(this.Calendario_Load);

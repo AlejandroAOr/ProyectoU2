@@ -112,6 +112,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.BackgroundImage = global::Proyecto2.Properties.Resources.Captura_de_pantalla_2025_03_10_000453;
             this.ClientSize = new System.Drawing.Size(538, 806);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
